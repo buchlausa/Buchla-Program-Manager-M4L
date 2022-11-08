@@ -2,7 +2,7 @@
 	"name" : "Buchla Program Manager",
 	"version" : 1,
 	"creationdate" : 3747921215,
-	"modificationdate" : 3748377194,
+	"modificationdate" : 3750683022,
 	"viewrect" : [ 25.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,22 +29,12 @@
 				"local" : 1
 			}
 ,
-			"tog_blue_tw.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"tog_blue.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"tog_green_tw.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"tog_green.png" : 			{
+			"tog_blue_tw.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -54,12 +44,12 @@
 				"local" : 1
 			}
 ,
-			"tog_red_tw.png" : 			{
+			"tog_red.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"tog_red.png" : 			{
+			"tog_red_tw.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -73,11 +63,31 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+,
+			"tog_green_tw.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"tog_green.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 ,
 		"code" : 		{
 			"tobytes.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"libtest.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"osc.min.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -116,5 +126,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0
+	"viewmode" : 0,
+	"includepackages" : 0
 }
