@@ -1,0 +1,163 @@
+{
+	"pattrstorage" : 	{
+		"name" : "buchla_PMC",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sendmode" : [ 0.0 ],
+					"seq_pulse_5" : [ 0 ],
+					"seq_pulse_4" : [ 1 ],
+					"seq_pulse_3" : [ 0 ],
+					"seq_pulse_1" : [ 0 ],
+					"eg_mode" : [ 1 ],
+					"eg_trigger" : [ 1 ],
+					"random_trigger" : [ 1 ],
+					"seq_trigger" : [ 1 ],
+					"seq_stages" : [ 0 ],
+					"mo_modulation_type" : [ 1 ],
+					"mo_waveshape" : [ 1 ],
+					"mo_range" : [ 1 ],
+					"mo_keyboard" : [ 1 ],
+					"pulser_mode" : [ 2 ],
+					"pulser_trigger" : [ 1 ],
+					"dlpg_gate_2_src" : [ 1 ],
+					"dlpg_gate_2_mode" : [ 1 ],
+					"dlpg_gate_1_mode" : [ 1 ],
+					"co_polarity" : [ 0 ],
+					"co_keyboard" : [ 1 ],
+					"co_timbre_cv" : [ 0, 2423 ],
+					"co_timbre" : [ 0, 0 ],
+					"co_pitch_cv" : [ 0, 2423 ],
+					"co_pitch" : [ 0, 0 ],
+					"mo_mod_cv" : [ 0, 2465 ],
+					"mo_mod" : [ 0, 0 ],
+					"mo_freq_cv" : [ 0, 2447 ],
+					"mo_freq" : [ 0, 0 ],
+					"dlpg_level_2_cv" : [ 0, 2469 ],
+					"dlpg_level_2" : [ 0, 0 ],
+					"dlpg_level_1_cv" : [ 0, 2471 ],
+					"dlpg_level_1" : [ 0, 0 ],
+					"eg_decay" : [ 0, 4095 ],
+					"eg_sustain" : [ 0, 2542 ],
+					"eg_attack" : [ 0, 4095 ],
+					"pulser_cv" : [ 0, 2519 ],
+					"pulser_period" : [ 0, 2453 ],
+					"co_waveshape_knob" : [ 2107 ],
+					"seq_voltage_level_5" : [ 0, 4074 ],
+					"seq_voltage_level_3" : [ 0, 2104 ],
+					"seq_voltage_level_2" : [ 0, 1081 ],
+					"seq_voltage_level_1" : [ 0, 0 ],
+					"seq_voltage_level_4" : [ 0, 3038 ],
+					"PATCHBAY::patchbay" : [ 						{
+							"data" : 							{
+								"numins" : 14,
+								"numouts" : 12,
+								"connections" : [ 									{
+										"in" : 13,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 8,
+										"out" : 4,
+										"gain" : 0.81
+									}
+, 									{
+										"in" : 2,
+										"out" : 3,
+										"gain" : 0.404908307790757
+									}
+ ]
+							}
+
+						}
+ ],
+					"seq_pulse_2" : [ 1 ],
+					"co_waveshape" : [ 1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"sendmode" : [ 0.0 ],
+					"seq_pulse_5" : [ 0 ],
+					"seq_pulse_4" : [ 0 ],
+					"seq_pulse_3" : [ 0 ],
+					"seq_pulse_1" : [ 0 ],
+					"eg_mode" : [ 0 ],
+					"eg_trigger" : [ 2 ],
+					"random_trigger" : [ 1 ],
+					"seq_trigger" : [ 0 ],
+					"seq_stages" : [ 0 ],
+					"mo_modulation_type" : [ 0 ],
+					"mo_waveshape" : [ 0 ],
+					"mo_range" : [ 1 ],
+					"mo_keyboard" : [ 1 ],
+					"pulser_mode" : [ 2 ],
+					"pulser_trigger" : [ 1 ],
+					"dlpg_gate_2_src" : [ 0 ],
+					"dlpg_gate_2_mode" : [ 0 ],
+					"dlpg_gate_1_mode" : [ 2 ],
+					"co_polarity" : [ 0 ],
+					"co_keyboard" : [ 1 ],
+					"co_timbre_cv" : [ 0, 3240 ],
+					"co_timbre" : [ 0, 0 ],
+					"co_pitch_cv" : [ 0, 4095 ],
+					"co_pitch" : [ 0, 0 ],
+					"mo_mod_cv" : [ 0, 4095 ],
+					"mo_mod" : [ 0, 0 ],
+					"mo_freq_cv" : [ 0, 0 ],
+					"mo_freq" : [ 0, 0 ],
+					"dlpg_level_2_cv" : [ 0, 0 ],
+					"dlpg_level_2" : [ 0, 0 ],
+					"dlpg_level_1_cv" : [ 0, 3859 ],
+					"dlpg_level_1" : [ 0, 0 ],
+					"eg_decay" : [ 0, 1557 ],
+					"eg_sustain" : [ 0, 4095 ],
+					"eg_attack" : [ 0, 1273 ],
+					"pulser_cv" : [ 0, 1204 ],
+					"pulser_period" : [ 0, 1564 ],
+					"co_waveshape_knob" : [ 381 ],
+					"seq_voltage_level_5" : [ 0, 0 ],
+					"seq_voltage_level_3" : [ 0, 0 ],
+					"seq_voltage_level_2" : [ 0, 0 ],
+					"seq_voltage_level_1" : [ 0, 0 ],
+					"seq_voltage_level_4" : [ 0, 0 ],
+					"PATCHBAY::patchbay" : [ 						{
+							"data" : 							{
+								"numins" : 14,
+								"numouts" : 12,
+								"connections" : [ 									{
+										"in" : 13,
+										"out" : 11,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 8,
+										"out" : 4,
+										"gain" : 0.81
+									}
+, 									{
+										"in" : 2,
+										"out" : 3,
+										"gain" : 0.404908307790757
+									}
+ ]
+							}
+
+						}
+ ],
+					"seq_pulse_2" : [ 0 ],
+					"co_waveshape" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

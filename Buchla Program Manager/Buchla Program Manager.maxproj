@@ -2,7 +2,7 @@
 	"name" : "Buchla Program Manager",
 	"version" : 1,
 	"creationdate" : 3747921215,
-	"modificationdate" : 3750683022,
+	"modificationdate" : 3751660940,
 	"viewrect" : [ 25.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,6 +17,26 @@
 			}
 ,
 			"l_hextodec.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"timedmessages.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"speedlimit.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"db_develop.maxhelp" : 			{
+				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"audio_mon.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -77,7 +97,17 @@
 		}
 ,
 		"code" : 		{
+			"nametobytes.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"tobytes.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"databass.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -103,6 +133,11 @@
 		}
 ,
 		"other" : 		{
+			"speedlimit.jso" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
 			"toggles artwork.afdesign" : 			{
 				"kind" : "file",
 				"local" : 1

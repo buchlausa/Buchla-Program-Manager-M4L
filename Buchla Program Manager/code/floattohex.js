@@ -45,30 +45,30 @@ function splithex(str){
 	var sysexvals = [];
 	for (var i in chunks){
 		todec = parseInt( "0x"+chunks[i], 16 ) ;
-		post("\n i: "+i);
-		post(", hex: "+chunks[i]);
-		post(", int: "+todec );
+		//post("\n i: "+i);
+		//post(", hex: "+chunks[i]);
+		//post(", int: "+todec );
 		sysexvals[i] = todec & 0x7F;
-		post(",  to sysex: "+sysexvals[i]);
+		//post(",  to sysex: "+sysexvals[i]);
 	}
   sysexvals[4] = 0;
-  post("\n--")
+  // post("\n--")
   //make the fifth byte with the MSbits:
 	for (var i in chunks){
 	    todec = parseInt( "0x"+chunks[i], 16 ) ;
-		post("\n int: "+i+" "+todec+" to MSB "+(todec & 0x80) );
+		//post("\n int: "+i+" "+todec+" to MSB "+(todec & 0x80) );
 	    sysexvals[4] |= (todec & 0x80) >> (7-i);
-		post(",  fifth: "+sysexvals[4] );
+		//post(",  fifth: "+sysexvals[4] );
 	}
 	sysexvals[4] |= 0x70;
 
 
-	post("\n hex vals "+chunks);
-	post("\n sysex vals "+sysexvals);
+	//post("\n hex vals "+chunks);
+	//post("\n sysex vals "+sysexvals);
 	var sysexhex = [];
 	for(i in sysexvals){
 		sysexhex[i] = sysexvals[i].toString(16);
 	}
-	post("\n sysex hex "+sysexhex);
+	//post("\n sysex hex "+sysexhex);
   outlet(0,sysexvals);
 }
