@@ -2,7 +2,7 @@
 	"name" : "Buchla Program Manager",
 	"version" : 1,
 	"creationdate" : 3747921215,
-	"modificationdate" : 3751660940,
+	"modificationdate" : 3754058474,
 	"viewrect" : [ 25.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -12,8 +12,7 @@
 		"patchers" : 		{
 			"Buchla Program Manager.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"l_hextodec.maxpat" : 			{
@@ -38,6 +37,11 @@
 ,
 			"audio_mon.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"limitdata.maxhelp" : 			{
+				"kind" : "helpfile",
 				"local" : 1
 			}
 
@@ -97,6 +101,11 @@
 		}
 ,
 		"code" : 		{
+			"databass.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"nametobytes.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
@@ -107,17 +116,17 @@
 				"local" : 1
 			}
 ,
-			"databass.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
 			"libtest.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
 			"osc.min.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"limitdata.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
