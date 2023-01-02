@@ -2,7 +2,7 @@
 A Max for Live device that interfaces with the Buchla Program Manager Card.
 ![Screenshot of Buchla Program Manager Max for Live device](m4l_buchlaProgramManager_screen01.png "m4l screenshot")
 
-# Goals
+# Description
 This is not a wholesale replacement for the Buchla Program Manager App. It does, however, allow a lot of the same functions and shares the database with
 the Preset Manager App. While the space alloted for a M4L device radically changes the interface, it does allow automation of parameters.
 Due to speed limitations, it's best to limit the amount of automation data sent to the Program Manager Card.
