@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 148.0, 87.0, 803.0, 956.0 ],
+		"rect" : [ 148.0, 87.0, 2182.0, 830.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1032,7 +1032,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"items" : [ "Bongos-1671737640000", ",", "It&apos;s Alive", ",", "Bongos Lo", ",", "Bloos Jargen 1", ",", "Shifting-1671735035000", ",", "Krellmuse", ",", "Random", ",", "Pkkksm +", ",", "Warm Pulse Seq", ",", "Basic Keyb-1671735453000", ",", "Woodpluck 1", ",", "Wood 5", ",", "Bass Pizz P-1671738630000", ",", "Key 80-1671736437000", ",", "zrppi", ",", "electric glitch", ",", "ebbflow-1671739383000", ",", "timbreSweep", ",", "Drogn-k", ",", "Bouncy bird", ",", "Drops 1", ",", "WP Seq 1", ",", "WhP Cycle 1", ",", "Lzy Mpulse", ",", "sw33ps 1", ",", "Drowning 1", ",", "Electro Aviary", ",", "Computer Room +", ",", "Aleatoric +", ",", "Tippin K", ",", "Fenfr ky", ",", "tremolo organ 2", ",", "WhP Keys 2", ",", "Drone key", ",", "metal cans", ",", "Reptile", ",", "Erratic", ",", "Accent Sequence +", ",", "Dwn To Hppy", ",", "Krellish", ",", "click texture +", ",", "Streetwalking", ",", "Wait For  It", ",", "Anxiety", ",", "Osc Range match" ],
+					"items" : [ "Bongos-1671737640000", ",", "It&apos;s Alive", ",", "Bongos Lo", ",", "Bloos Jargen 1", ",", "Shifting-1671735035000", ",", "Krellmuse-1671739542000", ",", "Random", ",", "Pkkksm +", ",", "Warm Pulse Seq", ",", "Basic Keyb-1671735453000", ",", "Woodpluck 1", ",", "Wood 5", ",", "Bass Pizz P-1671738630000", ",", "Key 80-1671736437000", ",", "zrppi", ",", "electric glitch", ",", "ebbflow-1671739383000", ",", "timbreSweep", ",", "Drogn-k", ",", "Bouncy bird", ",", "Drops 1", ",", "WP Seq 1", ",", "WhP Cycle 1", ",", "Lzy Mpulse", ",", "sw33ps 1", ",", "Drowning 1", ",", "Electro Aviary", ",", "Computer Room +", ",", "Aleatoric +", ",", "Tippin K", ",", "Fenfr ky", ",", "tremolo organ 2", ",", "WhP Keys 2", ",", "Drone key", ",", "metal cans", ",", "Reptile", ",", "Erratic", ",", "Accent Sequence +", ",", "Dwn To Hppy", ",", "Krellish", ",", "click texture +", ",", "Streetwalking", ",", "Wait For  It", ",", "Anxiety", ",", "Osc Range match" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1178,7 +1178,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"patching_rect" : [ 49.0, 521.0, 1197.0, 183.0 ],
-									"rows" : 2
+									"rows" : 46
 								}
 
 							}
@@ -5437,7 +5437,7 @@
 					"patching_rect" : [ 1135.0, 484.0, 51.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1308.500000000000227, 121.199999749660492, 51.0, 37.0 ],
+					"presentation_rect" : [ 1436.5, 124.199999749660492, 51.0, 37.0 ],
 					"text" : "keyboard\npulser\nsequencer"
 				}
 
@@ -5782,7 +5782,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1110.0, 462.0, 55.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1283.500000000000227, 99.199999749660492, 74.0, 18.0 ],
+					"presentation_rect" : [ 1411.5, 102.199999749660492, 74.0, 18.0 ],
 					"text" : "random trigger"
 				}
 
@@ -10863,7 +10863,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1114.666648864746094, 489.663367331027985, 20.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1283.500000000000227, 114.199999749660492, 20.0, 51.0 ],
+					"presentation_rect" : [ 1411.5, 117.199999749660492, 20.0, 51.0 ],
 					"range" : 3,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -16077,7 +16077,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 264.811881542205811, 31.000001015968337, 191.0, 22.0 ],
-									"text" : "seq_voltage_level_4 0 0"
+									"text" : "read buchla_PMC.json 1"
 								}
 
 							}
@@ -18267,7 +18267,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 769.899339417616488, 220.0, 27.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 1363.0, 170.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 1500.0, 170.0 ],
 					"proportion" : 0.5,
 					"rounded" : 2
 				}
