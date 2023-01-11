@@ -14,7 +14,16 @@ var sysex_vars = new Object();
 
 var dbmac = "~/Library/Application Support/Buchla Program Manager/pm.db"
 var dbwin = ""
-
+var cordcolors = [
+  "#CEE5E8",
+  "#00B5C1",
+  "#6888D4",
+  "#4DBA29",
+  "#C1C200",
+  "#E5630D",
+  "#DB221D",
+  "#B92691"
+]
 //translation table for converting from pm.db format to pattrstorage format
 function readTrans(){
   var path = "sysex_vars.json";
@@ -105,22 +114,29 @@ function getprograms(){
 }
 
 //save-as
-var pgmcounter = 0;
-function addprogram(){
-  var newDate = "12/21/22"
-  var newName = "M4L-name"+pgmcounter;
-  pgmcounter++;
-  var newProgramData = JSON.stringify(patchdata);
-  var newTags = ['m4l'];
-  var newAuthor = 'MAX';
-  var newModby = 'M4L';
-  if(patchdata){
-    sqlite.exec("INSERT INTO programs ('name', 'date', 'programdata', 'deleted', 'datemod', 'tags', 'author', 'modby') VALUES('"+newName+"','"+newDate+"','"+newProgramData+"','"+0+"','"+newDate+"','"+newTags+"','"+newAuthor+"','"+newModby+"')",result);
-  } else {
-    post("no patchdata to add")
-  }
-  getprograms();
-}
+// function addprogram(name){
+//   var newName = "";
+//   var newDate = makedate();
+//   if(name){
+//     newName = name;
+//   } else {
+//     var regx = new RegExp("/","g");
+//     var dotdate = newDate.replace(regx, '.');
+//     newName = currentprogram+dotdate;
+//   }
+//   var newProgramData = JSON.stringify(patchdata);
+//   write(newProgramData,"/Users/nyboer/progblob.json")
+//   var newTags = ['m4l'];
+//   var newAuthor = 'MAX';
+//   var newModby = 'M4L';
+//   if(patchdata){
+//     sqlite.exec("INSERT INTO programs ('name', 'date', 'programdata', 'deleted', 'datemod', 'tags', 'author', 'modby') VALUES('"+newName+"','"+newDate+"','"+newProgramData+"','"+0+"','"+newDate+"','"+newTags+"','"+newAuthor+"','"+newModby+"')",result);
+//   } else {
+//     post("no patchdata to add")
+//   }
+//   getprograms();
+// }
+
 function write(thedata,p){
 	var jase = JSON.stringify(thedata,null,'\t');
 	var path = p;
@@ -133,13 +149,25 @@ function write(thedata,p){
 			post("\ncould not create json file: " + path);
 		}
 }
-//save current
-function updateprogram(){
 
+//use while testing to make sure things are working as intended:
+var nameprotect = 0;
+//save. If no 'name' argument, just save current, otherwise create a new ID.
+function updateprogram(name){
+  var newName = "";
   // var theid = idtable[v];
   var theid = currentprogram;
   var newDate = makedate();
-  var newName = currentname+"-"+Date.parse( new Date() );
+  if(name){
+    if (name == currentname){
+      newName = currentname+"-"+nameprotect;
+      nameprotect++;
+    }
+    newName = name;
+  } else {
+    //will want to drop the nameprotect for release
+    newName = currentname+"-"+nameprotect;
+  }
   var newTags = "";
   var newAuthor = "Max";
   var newNotes = "made in Max For Live patch"
@@ -152,28 +180,36 @@ function updateprogram(){
   programblob.modifiedby = newModby;
   programblob.patchdata = patchdata;
   var newProgramData = JSON.stringify(programblob);
+  post("\nWrite File of New Program - progblob.json");
   write(newProgramData,"/Users/nyboer/progblob.json")
   if(patchdata){
 
-    post("\n - update id: "+theid);
-    post("\n *****BEFORE*******");
-    exec("SELECT programdata FROM programs WHERE id = "+theid);
-    sqlite.exec("SELECT name FROM programs WHERE id = "+theid, result);
-    post("\n name check: "+result.value(0,0));
-    sqlite.exec("SELECT date FROM programs WHERE id = "+theid, result);
-    post("\n date check: "+result.value(0,0));
-
-    var sqlcmd = "UPDATE programs SET name='"+newName+"', date='"+newDate+"', programdata='"+newProgramData+"', author='"+newAuthor+"', modby='"+newModby+"' WHERE id = " + theid;
-
-    post("\n sql: "+sqlcmd);
+    // post("\n - update id: "+theid);
+    // post("\n *****BEFORE*******");
+    // exec("SELECT programdata FROM programs WHERE id = "+theid);
+    // sqlite.exec("SELECT name FROM programs WHERE id = "+theid, result);
+    // post("\n name check: "+result.value(0,0));
+    // sqlite.exec("SELECT date FROM programs WHERE id = "+theid, result);
+    // post("\n date check: "+result.value(0,0));
+    var sqlcmd = "";
+    if(name){
+      //create new entry
+      sqlcmd = "INSERT INTO programs ('name', 'date', 'programdata', 'deleted', 'datemod', 'tags', 'author', 'modby') VALUES('"+newName+"','"+newDate+"','"+newProgramData+"','"+0+"','"+newDate+"','"+newTags+"','"+newAuthor+"','"+newModby+"')";
+    } else {
+      //update current program
+      sqlcmd = "UPDATE programs SET name='"+newName+"', date='"+newDate+"', programdata='"+newProgramData+"', author='"+newAuthor+"', modby='"+newModby+"' WHERE id = " + theid;
+    }
+    // post("\n sql: "+sqlcmd);
     sqlite.exec(sqlcmd,result);
-    post("\n *****AFTER*******");
-    exec("SELECT programdata FROM programs WHERE id = "+theid);
-    sqlite.exec("SELECT name FROM programs WHERE id = "+theid, result);
-    post("\n namech eck: "+result.value(0,0));
-    sqlite.exec("SELECT date FROM programs WHERE id = "+theid, result);
-    post("\n date check: "+result.value(0,0));
 
+    //for testing to verify this operation
+    // post("\n *****AFTER*******");
+    // exec("SELECT programdata FROM programs WHERE id = "+theid);
+    // sqlite.exec("SELECT name FROM programs WHERE id = "+theid, result);
+    // post("\n namech eck: "+result.value(0,0));
+    // sqlite.exec("SELECT date FROM programs WHERE id = "+theid, result);
+    // post("\n date check: "+result.value(0,0));
+    nameprotect++;
 
   } else {
     post("no patchdata to update")
@@ -194,6 +230,7 @@ function selectprogram(v){
   // write(thepgm,"/Users/nyboer/aprogram.json")
    post("\n ## pgm: "+theid+" name: "+currentname);
   var pgmdata = JSON.parse(thepgm);
+  post("\nWrite File of Selected Program - originalblob.json");
   write(JSON.stringify(pgmdata),"/Users/nyboer/originalblob.json");
   // for (i in pgmdata){
   // 	post("\n +- "+i+" : "+pgmdata[i]);
@@ -218,7 +255,7 @@ function selectprogram(v){
     var o_param = pgmdata["patchdata"][i]["p"];
     var val = pgmdata["patchdata"][i]["v"];
     // post("\n == "+"i: "+i+" p: "+o_param+" v: "+val);
-    var param = sysex_vars["translate"][o_param];
+    var param = sysex_vars["translate_db2pattr"][o_param];
     // post("\n *** "+param);
     if (param != "connection"){
       //sliders need special treatment. check if we are dealing with a slider first:
@@ -272,14 +309,37 @@ function startPattrDump(){
 
 function ingestPattr(pattr_param,value){
   patchdata[pattrcount]={};
-  var pma_param = sysex_vars["etalsnart"][pattr_param];
+  //translate the names of pattr objects to the names used in the Buchla Program Manager app:
+  var pma_param = sysex_vars["translate_pattr2db"][pattr_param];
+  var scale_value = 1;
+  if(sysex_vars["scale_pattr2db"][pattr_param]){
+    scale_value = sysex_vars["scale_pattr2db"][pattr_param];
+  }
   patchdata[pattrcount]["p"] = pma_param;
-  patchdata[pattrcount]["v"] = value;
-  post("\n ||| "+pattrcount+" max p:"+ pattr_param+" p: "+pma_param+" v: "+value);
+  patchdata[pattrcount]["v"] = value*scale_value;
+  // post("\n ||| "+pattrcount+" max p:"+ pattr_param+" p: "+pma_param+" v: "+value);
   pattrcount++;
 }
+
+
+// var pbay = new Dict('patchbayy');
+// function dic(){
+// 	post("\nkeys: "+pbay.getkeys() );
+// 	var cnxn = pbay.get("connections");
+// 	post("\nkeys cnxn: "+cnxn[0].getkeys() );
+// 	post("\nlen "+cnxn.length);
+// 	for (var i=0;i<cnxn.length;i++){
+// 		var keys = 	cnxn[i].getkeys();
+// 		post("\nkeys cnxn: "+keys[0] );
+// 		for (var j=0;j<keys.length;j++){
+// 			var elem = cnxn[i].get(keys[j]);
+// 			post("\nelem "+elem);
+// 		}
+// 	}
+// }
+
 //link to dictionary in max patch that describes the crosspatch connections
-var pbay = new Dict('patchbay');
+var pbay = new Dict('patchbayy');
 function patchbay(){
 //to get hex value: source_id.toString(16);
   //map the indices for crosspatch inputs to the ido values
@@ -288,8 +348,10 @@ function patchbay(){
   var translate_idos = [4,7,10,1,2,3, 5,11,17,23, 32,27,12,29,30];
   var translate_idis = [6,9,12,15, 18,34,21,24, 28,35,36,37];
   var cnx = pbay.get("connections");
-  for (i in cnx ){
+  for (var i=0;i<cnx.length;i++){
     patchdata[pattrcount] = {};
+    var cnxkeys = cnx[i].getkeys();
+    post("\ncnx keys: "+cnxkeys);
     var in_index = cnx[i].get("in");
     var out_index = cnx[i].get("out");
     patchdata[pattrcount]["p"] = "connectCV";
@@ -299,7 +361,8 @@ function patchbay(){
     patchdata[pattrcount]["v"] = depthvalue;
     patchdata[pattrcount]["ido"] = translate_idos[in_index];
     patchdata[pattrcount]["idi"] = translate_idis[out_index]; //.toString(16) - not hex?
-    patchdata[pattrcount]["c"] = "#B2CF4C";
+    //patchdata[pattrcount]["c"] = "#B2CF4C";
+    patchdata[pattrcount]["c"] = cordcolors[i%cordcolors.length];
     pattrcount++;
   }
 }

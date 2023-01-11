@@ -2,7 +2,7 @@
 	"name" : "Buchla Program Manager",
 	"version" : 1,
 	"creationdate" : 3747921215,
-	"modificationdate" : 3754058474,
+	"modificationdate" : 3755539032,
 	"viewrect" : [ 25.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -42,6 +42,11 @@
 ,
 			"limitdata.maxhelp" : 			{
 				"kind" : "helpfile",
+				"local" : 1
+			}
+,
+			"Timbre Patch.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 
@@ -116,17 +121,17 @@
 				"local" : 1
 			}
 ,
+			"limitdata.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"libtest.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
 			"osc.min.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"limitdata.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
