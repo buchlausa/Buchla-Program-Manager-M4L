@@ -2,7 +2,10 @@
 //https://stackoverflow.com/questions/65538406/convert-javascript-number-to-float-single-precision-ieee-754-and-receive-integ
 function msg_float(double) {
 	var integerBitsHex;
-	var test = double != 1 || double != 0 || double != -1;
+	var notzero = double != 0 ;
+	var notone = Math.abs(double) != 1 ;
+	var test = notzero;
+	//post("\ntest? "+test +" x: " +notzero+" 1 "+notone);
 	if(test == true){
 	  // float / f32 has 32 bit => 4 bytes
 	  var BYTES = 4;
@@ -31,7 +34,7 @@ function msg_float(double) {
 			integerBitsHex = "00000000";
 		}
 	}
-
+	//post("\nfloat hex:"+integerBitsHex);
   splithex(integerBitsHex);
 }
 

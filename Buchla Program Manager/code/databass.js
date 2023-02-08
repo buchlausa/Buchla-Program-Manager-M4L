@@ -93,7 +93,7 @@ function makeidtable(){
   for(var i=0; i<result.numrecords(); i++){
     for(var j=0; j<result.numfields(); j++){
       idtable[i] = result.value(j,i);
-      // post("make id table -"+i+" "+idtable[i]  + "\n")
+      // post("make id table: "+i+" "+idtable[i]  + "\n")
     }
   }
 }
@@ -296,6 +296,7 @@ function selectprogram(v){
     //   post("\n --data "+j+" : "+pgmdata["patchdata"][i][j]);
     // }
   }
+  outlet(1,"done");
 }
 
 var pattrcount = 0;

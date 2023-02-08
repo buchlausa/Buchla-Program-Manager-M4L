@@ -2,8 +2,8 @@
 	"name" : "Buchla Program Manager",
 	"version" : 1,
 	"creationdate" : 3747921215,
-	"modificationdate" : 3755539032,
-	"viewrect" : [ 25.0, 87.0, 300.0, 500.0 ],
+	"modificationdate" : 3758312646,
+	"viewrect" : [ 25.0, 87.0, 334.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -12,7 +12,8 @@
 		"patchers" : 		{
 			"Buchla Program Manager.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"l_hextodec.maxpat" : 			{
@@ -176,5 +177,5 @@
 	"devpath" : ".",
 	"sortmode" : 0,
 	"viewmode" : 0,
-	"includepackages" : 0
+	"includepackages" : 1
 }
