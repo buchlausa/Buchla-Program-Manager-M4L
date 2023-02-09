@@ -1,31 +1,24 @@
 autowatch = 1;
 outlets = 2;
 
-//definitely some extra code in here that really isn't needed. Kept for reference to original.
-function patchname(v){
+function setName(v){
 	var str=v;
-	var hexresult = "";
-	var result = [];
-	maxLenth=13;
+	var decresult = [];
+	var maxLenth=13;
+	var hex,dec;
 	stringLen=str.length;
 	for (i=0; i<maxLenth; i++) {
 		if(i<stringLen){
-			var hextrabit="";
-			if(i==4 || i==8 || i==12){
-				hextrabit=" 70";
-			}
-			result[i] = str.charCodeAt(i);
-			hex = str.charCodeAt(i).toString(16);
-			hexresult += hextrabit+" "+(hex).slice(-4);
+			decresult.push(str.charCodeAt(i));
 		}else{
-			hexresult += " 00";
-			result[i] = 0;
+			 decresult.push(32);
 		}
 	}
-	//don't know why, but need to:
-	result.splice(4, 0, 112);
-	result.splice(8, 0, 112);
-	result.splice(12, 0, 112);
-	outlet(1,hexresult);
-	outlet(0,result);
+	decresult.push(0,0,0,112);
+	post("-- "+decresult);
+	decresult.splice(4, 0,112);
+	decresult.splice(9, 0, 112);
+	decresult.splice(14, 0, 112);
+	post("++ "+decresult);
+	outlet(0,decresult);
 }
