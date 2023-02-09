@@ -352,7 +352,7 @@ function patchbay(){
   for (var i=0;i<cnx.length;i++){
     patchdata[pattrcount] = {};
     var cnxkeys = cnx[i].getkeys();
-    post("\ncnx keys: "+cnxkeys);
+    //post("\ncnx keys: "+cnxkeys);
     var in_index = cnx[i].get("in");
     var out_index = cnx[i].get("out");
     patchdata[pattrcount]["p"] = "connectCV";
