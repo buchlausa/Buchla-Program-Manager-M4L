@@ -30,20 +30,26 @@ function readTrans(){
 	memstr = "";
 	var data = "";
 	var maxchars = 800;
-  var f = new File(path,"read");
 
-  f.open();
-	if (f.isopen) {
-		while(f.position<f.eof) {
-			memstr+=f.readstring(maxchars);
-		}
-		f.close();
-	} else {
-		post("Error\n");
-	}
-	sysex_vars = JSON.parse(memstr);
-	//UI = eval("("+memstr+")"); //much less secure, but could work
-	post("\nJSON Read",path);
+  var d = new Dict();
+  d.import_json(path);
+  post("\nJSON: "+path);
+  sysex_vars = JSON.parse( d.stringify() );
+  //
+  // var f = new File(path,"read");
+  //
+  // f.open();
+	// if (f.isopen) {
+	// 	while(f.position<f.eof) {
+	// 		memstr+=f.readstring(maxchars);
+	// 	}
+	// 	f.close();
+	// } else {
+	// 	post("\nJSON Read Error: "+path);
+	// }
+	// sysex_vars = JSON.parse(memstr);
+	// //UI = eval("("+memstr+")"); //much less secure, but could work
+	// post("\nJSON Read",path);
   // for (i in sysex_vars["translate"]){
   //   post("\ndata - "+i);
   // }
@@ -180,8 +186,8 @@ function updateprogram(name){
   programblob.modifiedby = newModby;
   programblob.patchdata = patchdata;
   var newProgramData = JSON.stringify(programblob);
-  post("\nWrite File of New Program - progblob.json");
-  write(newProgramData,"/Users/nyboer/progblob.json")
+  // post("\nWrite File of New Program - progblob.json");
+  // write(newProgramData,"/Users/nyboer/progblob.json")
   if(patchdata){
 
     // post("\n - update id: "+theid);
@@ -230,8 +236,8 @@ function selectprogram(v){
   // write(thepgm,"/Users/nyboer/aprogram.json")
    post("\n ## pgm: "+theid+" name: "+currentname);
   var pgmdata = JSON.parse(thepgm);
-  post("\nWrite File of Selected Program - originalblob.json");
-  write(JSON.stringify(pgmdata),"/Users/nyboer/originalblob.json");
+  // post("\nWrite File of Selected Program - originalblob.json");
+  // write(JSON.stringify(pgmdata),"/Users/nyboer/originalblob.json");
   // for (i in pgmdata){
   // 	post("\n +- "+i+" : "+pgmdata[i]);
   // 	for (j in pgmdata[i]){
