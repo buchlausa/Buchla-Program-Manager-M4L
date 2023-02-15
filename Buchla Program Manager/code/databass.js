@@ -262,24 +262,26 @@ function selectprogram(v){
     var val = pgmdata["patchdata"][i]["v"];
     // post("\n == "+"i: "+i+" p: "+o_param+" v: "+val);
     var param = sysex_vars["translate_db2pattr"][o_param];
-    // post("\n *** "+param);
+    post("\n *** "+param,val);
+
     if (param != "connection"){
+      outlet(1,param,val);
       //sliders need special treatment. check if we are dealing with a slider first:
-      if(sysex_vars["slider_vars"][param]){
-        var length = sysex_vars["slider_vars"][param][1];
-        // post("\n ==> "+param+" "+val);
-        // send out to pattrstorage
-        if(length == 2){
-          //needs horiz, veritcal list for pictslider. only using vertical, so horiz is 0
-          outlet(1,param,0,val);
-        }
-        if(length == 1){
-          outlet(1,param,val);
-        }
-      } else {
-        //toggles and stuff
-        outlet(1,param,val);
-      }
+      // if(sysex_vars["slider_vars"][param]){
+      //   var length = sysex_vars["slider_vars"][param][1];
+      //   // post("\n ==> "+param+" "+val);
+      //   // send out to pattrstorage
+      //   if(length == 2){
+      //     //needs horiz, veritcal list for pictslider. only using vertical, so horiz is 0
+      //     outlet(1,param,0,val);
+      //   }
+      //   if(length == 1){
+      //     outlet(1,param,val);
+      //   }
+      // } else {
+      //   //toggles and stuff
+      //   outlet(1,param,val);
+      // }
 
     } else {
       //connection logic

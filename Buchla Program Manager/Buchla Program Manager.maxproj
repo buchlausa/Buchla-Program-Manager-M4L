@@ -2,7 +2,7 @@
 	"name" : "Buchla Program Manager",
 	"version" : 1,
 	"creationdate" : 3747921215,
-	"modificationdate" : 3758827443,
+	"modificationdate" : 3759271400,
 	"viewrect" : [ 25.0, 87.0, 334.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,6 +17,11 @@
 			}
 ,
 			"l_hextodec.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pulsersync.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -51,7 +56,7 @@
 				"local" : 1
 			}
 ,
-			"pulsersync.maxpat" : 			{
+			"ui-dev.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -108,6 +113,16 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+,
+			"cap_yel.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
+,
+			"cap_yelx.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -138,6 +153,16 @@
 			}
 ,
 			"osc.min.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"slidr.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"imgslider.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}

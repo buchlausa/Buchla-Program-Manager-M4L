@@ -109,7 +109,7 @@
     "dlpg_level_1_cv" : ["cap_black.png", 2],
     "dlpg_level_2" : ["cap_black.png", 2],
     "dlpg_level_2_cv" : ["cap_black.png", 2],
-    "pulser_period" : ["cap_yel.png", 2],
+    "pulser_period" : ["cap_yel.png", 1],
     "pulser_cv" : ["cap_yel.png", 2],
     "eg_attack" : ["cap_org.png", 2],
     "eg_sustain" : ["cap_org.png", 2],
