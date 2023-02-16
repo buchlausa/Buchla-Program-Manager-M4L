@@ -2,7 +2,7 @@
 	"name" : "Buchla Program Manager",
 	"version" : 1,
 	"creationdate" : 3747921215,
-	"modificationdate" : 3759271400,
+	"modificationdate" : 3759355698,
 	"viewrect" : [ 25.0, 87.0, 334.0, 900.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -60,10 +60,20 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"LFO.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"slider_bg.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"tog_bk.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -123,6 +133,36 @@
 				"kind" : "vectorimagefile",
 				"local" : 1
 			}
+,
+			"multimap-closed-off.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
+,
+			"knob_basic_indicator0.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"multimap-unmap.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
+,
+			"lfo-beat-icon.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
+,
+			"lfo-free-icon.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
+,
+			"multimap-open-off.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -147,6 +187,11 @@
 				"local" : 1
 			}
 ,
+			"imgslider.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"libtest.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
@@ -158,11 +203,6 @@
 			}
 ,
 			"slidr.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"imgslider.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
