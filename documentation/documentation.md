@@ -8,7 +8,7 @@ Ultimately, the device is designed to make the Easel Command an extension of you
 
 ## Interface
 
-![alt_text](production/callouts.png "image_tooltip")
+!["Callouts for Buchla Program Manager Max for Live device"](production/callouts.png "Max for Live Interface")
 
 1. **Select a preset** - Any preset you’ve saved in the desktop app is available here. Once selected, the preset data is sent to the Easel sound module and ready for play.
 2. **Save** - Click to open a window with options for saving the preset to the card, as a new preset to the database, or updating the preset you loaded from the menu.
@@ -23,7 +23,7 @@ Ultimately, the device is designed to make the Easel Command an extension of you
 
 ### Patchbay
 
-![alt_text](production/patchbay_screen.png "image_tooltip")
+!["Patchbay panel image"](production/patchbay_screen.png "patchbay panel")
 
 Click and drag connections to create patches. The “dial” on the patch cord allows you to set depth. When the dial is completely full, that is a depth of “1”. When it’s half full (or half-empty), that has a depth of “0” and will have no effect. When the dial is empty of color, it will invert the modulator’s values sent to the patched source.
 
@@ -32,12 +32,18 @@ If you are feeling lucky, use the “random patch” button to create a random c
 
 ### Save
 
-![alt_text](production/save_screen.png "image_tooltip")
+!["Save functions image"](production/save_screen.png "Save panel")
 
 Name your patch, then decide if you want to save to a slot on the card, save it as a new preset, or update the current preset. You can do them all if you like	! If you save to a “file”, it will be available in the desktop app next time you open it. Cool!
 
 ### LFO
 
-![alt_text](production/lfo_screen.png "image_tooltip")
+!["LFO panel image"](production/lfo_screen.png "LFO panel")
 
 Lots of controls, the same as Live’s own LFO device.
+
+### MIDI Learn
+
+!["MIDI Learn mode image"](production/midilearn.png "MIDI Learn")
+
+All controls are available in MIDI Learn. Because of the custom interface in this device, the MIDI learn targets might be a bit unexpected. Normally, the entire control is highlighted for MIDI learn, but as you can see in this image, there are small targets you can click with your mouse to latch MIDI controls to the devices.
