@@ -6,6 +6,18 @@ The Max for Live device makes it so all parameters are exposed to automation lan
 
 Ultimately, the device is designed to make the Easel Command an extension of your set, allowing you unprecedented control over your Buchla hardware.
 
+No, you do not need the desktop app open to use this. It is completely independent.
+
+## Setup
+
+!["MIDI preferences detail image"](production/midiports.png "MIDI preferences in Ableton Live")
+
+First, open the MIDI panel in Live's preferences. Make sure the iProgram card is available as a MIDI output.
+
+!["MIDI channel setup image"](production/midiout.png "Setup like so")
+
+You'll need to drop the Buchla Program Manager device into a MIDI track in Live, then setup the MIDI output to go to the iProgram Card. See the image above. 
+
 ## Interface
 
 !["Callouts for Buchla Program Manager Max for Live device"](production/callouts.png "Max for Live Interface")
@@ -42,7 +54,7 @@ Name your patch, then decide if you want to save to a slot on the card, save it 
 
 Lots of controls, the same as Live’s own LFO device.
 
-### MIDI Learn
+## MIDI Learn
 
 !["MIDI Learn mode image"](production/midilearn.png "MIDI Learn")
 
