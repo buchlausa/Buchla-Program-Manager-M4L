@@ -31,7 +31,7 @@ You'll need to drop the Buchla Program Manager device into a MIDI track in Live,
 7. **Time Sync** - These menus above the Envelope Generator and Pulser Period sliders attempt to synchronize the times to the selected division of the current tempo of your Live set. It probably isn’t accurate.
 8. **Local Random or !!** - The color coded “!!” buttons in each section of the Easel sound module will randomize the sliders for only that section, according to the amount set in the global randomize amount
 9. **The Easel Interface** - All the front panel controls of the Easel sound module are replicated, albeit in a way to accommodate the strange aspect ratio of a Max for Live device.
-10. **LFOs **- Click the “LFO” buttons to open windows to configure an LFO. You can select the destination for the modulator using the menus in the window or on the device’s main interface.
+10. **LFOs** - Click the “LFO” buttons to open windows to configure an LFO. You can select the destination for the modulator using the menus in the window or on the device’s main interface.
 
 ### Patchbay
 
