@@ -6,7 +6,7 @@ The Max for Live device makes it so all parameters are exposed to automation lan
 
 Ultimately, the device is designed to make the Easel Command an extension of your set, allowing you unprecedented control over your Buchla hardware.
 
-No, you do not need the desktop app open to use this. It is completely independent.
+No, you do not need the desktop app open to use this. It is completely independent. However, at a minium, You will need to [install](https://buchla.com/programmanager/) and open the Program Manager App to instantiate the database.
 
 ## Setup
 
