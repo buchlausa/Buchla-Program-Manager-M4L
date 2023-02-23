@@ -30,7 +30,8 @@ var cordcolors = [
 
 function initpath(p){
 	var opsys = max.os;
-	if(opsys = "macintosh"){
+  post("\nOS: "+opsys);
+	if(opsys == "macintosh"){
 		dbfolder = p+"Library/Application Support/Buchla Program Manager/";
 		dbpath = p+"Library/Application Support/Buchla Program Manager/pm.db";
 	} else {
