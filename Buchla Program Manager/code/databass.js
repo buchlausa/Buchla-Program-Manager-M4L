@@ -12,8 +12,10 @@ var memstr;
 var mem = new Object();
 var sysex_vars = new Object();
 
-var dbmac = "~/Library/Application Support/Buchla Program Manager/pm.db"
-var dbwin = ""
+var dbpath = "";
+//var dbpath = "~/Library/Application Support/Buchla Program Manager/pm.db"
+
+
 var cordcolors = [
   "#CEE5E8",
   "#00B5C1",
@@ -24,16 +26,36 @@ var cordcolors = [
   "#DB221D",
   "#B92691"
 ]
+
+
+function initpath(p){
+	var opsys = max.os;
+	if(opsys = "macintosh"){
+		dbpath = p+"/Library/Application Support/Buchla Program Manager/pmf.db";
+	} else {
+		dbpath = p+"/AppData/Roaming/Buchla Program Manager/pm.db"
+	}
+	post("\n db path: "+dbpath);
+	
+}
+
 //translation table for converting from pm.db format to pattrstorage format
 function readTrans(){
-  var path = "sysex_vars.json";
+  var path = "sysex_varsi.json";
 	memstr = "";
 	var data = "";
 	var maxchars = 800;
 
   var d = new Dict();
   d.import_json(path);
-  post("\nJSON: "+path);
+	//a crummy but effective error check. Just see if the global key is in there. If not, there's a big problem!
+	if(d.contains("global")){
+			post("\nImportant Sysex file found!");
+	}else{
+			post("\nImportant Sysex file problem");
+			outlet(3,"error","json");
+	}
+  
   sysex_vars = JSON.parse( d.stringify() );
   //
   // var f = new File(path,"read");
@@ -57,11 +79,13 @@ function readTrans(){
 
 function opendb()
 {
-    sqlite.open(dbmac,1); //open a file-based DB
+	post("\nopening database");
+    sqlite.open(dbpath,1); //open a file-based DB
 	if(sqlite){
-		post("\ndatabase opened: "+dbmac);
+		post("\ndatabase opened: "+dbpath);
 	}else{
 		post("\ndatabase failed to open");
+		outlet(3,"error","Ndb");
 	}
 }
 
