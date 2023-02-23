@@ -31,11 +31,11 @@ var cordcolors = [
 function initpath(p){
 	var opsys = max.os;
 	if(opsys = "macintosh"){
-		dbfolder = p+"/Library/Application Support/Buchla Program Manager/";
-		dbpath = p+"/Library/Application Support/Buchla Program Manager/pm.db";
+		dbfolder = p+"Library/Application Support/Buchla Program Manager/";
+		dbpath = p+"Library/Application Support/Buchla Program Manager/pm.db";
 	} else {
-		dbfolder = p+"/AppData/Roaming/Buchla Program Manager/"
-		dbpath = p+"/AppData/Roaming/Buchla Program Manager/pm.db"
+		dbfolder = p+"AppData/Roaming/Buchla Program Manager/"
+		dbpath = p+"AppData/Roaming/Buchla Program Manager/pm.db"
 	}
 	post("\n db path: "+dbpath);
 }

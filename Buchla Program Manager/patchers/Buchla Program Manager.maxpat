@@ -129,7 +129,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 354.0, 427.0, 296.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "script send errorwin presentation_rect 20 183 343. 89."
 								}
 
@@ -216,7 +215,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.5, 288.0, 67.0, 129.0 ],
-									"presentation_linecount" : 3,
 									"text" : ";\rmax launchbrowser https://buchla.com/programmanager#getstarted"
 								}
 
@@ -6154,7 +6152,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"items" : "<empty>",
+					"items" : [ "Bongos-2", ",", "It&apos;s Alive", ",", "Bongos Lo", ",", "Bloos Jargen 1", ",", "Shifting", ",", "Krellmuse", ",", "Random", ",", "Pkkksm +", ",", "Warm Pulse Seq", ",", "Basic Keyb", ",", "Woodpluck 1", ",", "Wood 5", ",", "Bass Pizz P", ",", "Key 80", ",", "zrppi", ",", "electric glitch", ",", "ebbflow", ",", "timbreSweep", ",", "Drogn-k", ",", "Bouncy bird", ",", "Drops 1", ",", "WP Seq 1", ",", "WhP Cycle 1", ",", "Lzy Mpulse", ",", "sw33ps 1", ",", "Drowning 1", ",", "Electro Aviary", ",", "Computer Room +", ",", "Aleatoric +", ",", "Tippin K", ",", "Fenfr ky", ",", "tremolo organ 2", ",", "WhP Keys 2", ",", "Drone key", ",", "metal cans", ",", "Reptile", ",", "Erratic", ",", "Accent Sequence +", ",", "Dwn To Hppy", ",", "Krellish", ",", "click texture +", ",", "Streetwalking", ",", "Wait For  It", ",", "Anxiety", ",", "Osc Range match", ",", "Basicest", ",", "Basicpuls", ",", "SparsBleep", ",", "Perry", ",", "Wrongos", ",", "Wrongos2", ",", "PerrySpo", ",", "superdrive", ",", "superswing", ",", "SqronkBleep" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -17231,6 +17229,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
