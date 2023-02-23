@@ -13,6 +13,7 @@ var mem = new Object();
 var sysex_vars = new Object();
 
 var dbpath = "";
+var dbfolder = "";
 //var dbpath = "~/Library/Application Support/Buchla Program Manager/pm.db"
 
 
@@ -25,23 +26,42 @@ var cordcolors = [
   "#E5630D",
   "#DB221D",
   "#B92691"
-]
-
+];
 
 function initpath(p){
 	var opsys = max.os;
 	if(opsys = "macintosh"){
-		dbpath = p+"/Library/Application Support/Buchla Program Manager/pmf.db";
+		dbfolder = p+"/Library/Application Support/Buchla Program Manager/";
+		dbpath = p+"/Library/Application Support/Buchla Program Manager/pm.db";
 	} else {
+		dbfolder = p+"/AppData/Roaming/Buchla Program Manager/"
 		dbpath = p+"/AppData/Roaming/Buchla Program Manager/pm.db"
 	}
 	post("\n db path: "+dbpath);
-	
+}
+
+function finddb(){
+  var found = false;
+  var f = new Folder(dbfolder);
+  while(!f.end){
+    f.next();
+   if(f.filename=='pm.db'){
+     found = true;
+     post("\ndatabase opened: "+dbpath);
+   }
+ }
+ f.close();
+ if(!found){
+   //no database file, throw error
+   post("\ndatabase failed to open");
+   outlet(3,"error","db");
+ }
+ return found;
 }
 
 //translation table for converting from pm.db format to pattrstorage format
 function readTrans(){
-  var path = "sysex_varsi.json";
+  var path = "sysex_vars.json";
 	memstr = "";
 	var data = "";
 	var maxchars = 800;
@@ -55,7 +75,7 @@ function readTrans(){
 			post("\nImportant Sysex file problem");
 			outlet(3,"error","json");
 	}
-  
+
   sysex_vars = JSON.parse( d.stringify() );
   //
   // var f = new File(path,"read");
@@ -79,14 +99,12 @@ function readTrans(){
 
 function opendb()
 {
-	post("\nopening database");
+  if(finddb()){
+	   post("\nopening database");
     sqlite.open(dbpath,1); //open a file-based DB
-	if(sqlite){
-		post("\ndatabase opened: "+dbpath);
-	}else{
-		post("\ndatabase failed to open");
-		outlet(3,"error","Ndb");
-	}
+  }else{
+    post("\nno database, remember?")
+  }
 }
 
 
