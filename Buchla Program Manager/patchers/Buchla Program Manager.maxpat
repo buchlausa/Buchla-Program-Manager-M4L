@@ -705,21 +705,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1354.666648864746094, 534.663367331027985, 20.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 579.0, 90.836641520261765, 20.0, 52.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "eg_mode_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "eg_mode_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "eg_mode_sw"
 				}
@@ -737,21 +728,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1234.666648864746094, 534.663367331027985, 20.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 579.0, 23.000008851289749, 20.0, 52.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "eg_trigger_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "eg_trigger_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "eg_trigger_sw"
 				}
@@ -890,15 +872,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 872.0, 534.663367331027985, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 253.0, 24.000008851289749, 20.0, 51.0 ],
 					"range" : 3,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "seq_stages_",
+							"parameter_longname" : "seq_stages_sw",
 							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "seq_stages_",
+							"parameter_shortname" : "seq_stages_sw",
 							"parameter_type" : 0
 						}
 
@@ -921,21 +904,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 872.0, 385.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 321.0, 9.663367331027985, 20.0, 51.0 ],
 					"range" : 2,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_1_",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "seq_pulse_1_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "seq_pulse_1_sw"
 				}
@@ -953,22 +927,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 992.0, 385.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 351.0, 9.663367331027985, 20.0, 51.0 ],
 					"range" : 2,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "seq_pulse_2_sw",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "seq_pulse_2_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "seq_pulse_2_sw"
 				}
@@ -986,21 +950,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1112.0, 385.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 381.0, 9.663367331027985, 20.0, 51.0 ],
 					"range" : 2,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_3_",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "seq_pulse_3_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "seq_pulse_3_sw"
 				}
@@ -1018,21 +973,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1232.0, 385.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 411.0, 9.663367331027985, 20.0, 51.0 ],
 					"range" : 2,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_4_",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "seq_pulse_4_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "seq_pulse_4_sw"
 				}
@@ -1050,21 +996,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1352.0, 385.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 441.0, 9.663367331027985, 20.0, 51.0 ],
 					"range" : 2,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_5_",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "seq_pulse_5_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "seq_pulse_5_sw"
 				}
@@ -1082,21 +1019,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1114.666648864746094, 534.663367331027985, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.032690505186679, 98.163367331027999, 20.0, 51.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "random_trigger_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "random_trigger_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "random_trigger_sw"
 				}
@@ -1114,21 +1042,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 994.666648864746094, 534.663367331027985, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 253.0, 91.836641520261765, 20.0, 51.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "seq_trigger_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "seq_trigger_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "seq_trigger_sw"
 				}
@@ -1166,8 +1085,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "dlpg_gate_2_src_[1]",
-							"parameter_shortname" : "dlpg_gate_2_src_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "dlpg_gate_2_src_",
+							"parameter_shortname" : "dlpg_gate_2_src_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -1211,8 +1131,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "dlpg_gate_2_mode_[1]",
-							"parameter_shortname" : "dlpg_gate_2_mode_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "dlpg_gate_2_mode_",
+							"parameter_shortname" : "dlpg_gate_2_mode_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -1455,10 +1376,10 @@
 					"presentation_rect" : [ 1570.0, 14.970751166343689, 139.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "[none]", "co_pitch", "co_pitch_cv", "co_timbre", "co_timbre_cv", "mo_freq", "mo_freq_cv", "mo_mod", "mo_mod_cv", "dlpg_level_1", "dlpg_level_1_cv", "dlpg_level_2", "dlpg_level_2_cv", "pulser_period", "pulser_cv", "eg_attack", "eg_sustain", "eg_decay", "seq_voltage_level_1", "seq_voltage_level_2", "seq_voltage_level_3", "seq_voltage_level_4", "seq_voltage_level_5", "co_waveshape_knob" ],
+							"parameter_enum" : [ "[none]", "co_pitch", "co_pitch_cv", "co_timbre", "co_timbre_cv", "mo_freq", "mo_freq_cv", "mo_mod", "mo_mod_cv", "dlpg_level_1", "dlpg_level_1_cv", "dlpg_level_2", "dlpg_level_2_cv", "pulser_period", "pulser_cv", "eg_attack", "eg_sustain", "eg_decay", "seq_voltage_level_1", "seq_voltage_level_2", "seq_voltage_level_3", "seq_voltage_level_4", "seq_voltage_level_5", "co_waveshape_knob", "co_waveshape", "co_polarity", "mo_waveshape" ],
 							"parameter_linknames" : 1,
 							"parameter_longname" : "lfo_dest[1]",
-							"parameter_mmax" : 23,
+							"parameter_mmax" : 26,
 							"parameter_shortname" : "lfo_dest[1]",
 							"parameter_type" : 2
 						}
@@ -4598,7 +4519,7 @@
 					"patching_rect" : [ 482.0, 259.0, 125.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.928571428571331, 45.970751166343689, 93.0, 18.0 ],
-					"text" : "Bloos Jargen 1",
+					"text" : "..",
 					"varname" : "patch_name_lt"
 				}
 
@@ -4614,7 +4535,7 @@
 					"patching_rect" : [ 482.0, 279.0, 125.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 45.970751166343689, 93.0, 18.0 ],
-					"text" : "Aleatoric +",
+					"text" : "..",
 					"textjustification" : 2,
 					"varname" : "patch_name_rt"
 				}
@@ -6172,7 +6093,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"items" : [ "Bongos-2", ",", "It&apos;s Alive", ",", "Bongos Lo", ",", "Bloos Jargen 1", ",", "Shifting", ",", "Krellmuse", ",", "Random", ",", "Pkkksm +", ",", "Warm Pulse Seq", ",", "Basic Keyb", ",", "Woodpluck 1", ",", "Wood 5", ",", "Bass Pizz P", ",", "Key 80", ",", "zrppi", ",", "electric glitch", ",", "ebbflow", ",", "timbreSweep", ",", "Drogn-k", ",", "Bouncy bird", ",", "Drops 1", ",", "WP Seq 1", ",", "WhP Cycle 1", ",", "Lzy Mpulse", ",", "sw33ps 1", ",", "Drowning 1", ",", "Electro Aviary", ",", "Computer Room +", ",", "Aleatoric +", ",", "Tippin K", ",", "Fenfr ky", ",", "tremolo organ 2", ",", "WhP Keys 2", ",", "Drone key", ",", "metal cans", ",", "Reptile", ",", "Erratic", ",", "Accent Sequence +", ",", "Dwn To Hppy", ",", "Krellish", ",", "click texture +", ",", "Streetwalking", ",", "Wait For  It", ",", "Anxiety", ",", "Osc Range match", ",", "Basicest", ",", "Basicpuls", ",", "SparsBleep", ",", "Perry", ",", "Wrongos", ",", "Wrongos2", ",", "PerrySpo", ",", "superdrive", ",", "superswing", ",", "SqronkBleep", ",", "Bloos Jargen Deriv" ],
+					"items" : [ "Bongos-2", ",", "It&apos;s Alive", ",", "Bongos Lo", ",", "Bloos Jargen 1", ",", "Shifting", ",", "Krellmuse", ",", "Random", ",", "Pkkksm +", ",", "Warm Pulse Seq", ",", "Basic Keyb", ",", "Woodpluck 1", ",", "Wood 5", ",", "Bass Pizz P", ",", "Key 80", ",", "zrppi", ",", "electric glitch", ",", "ebbflow", ",", "timbreSweep", ",", "Drogn-k", ",", "Bouncy bird", ",", "Drops 1", ",", "WP Seq 1", ",", "WhP Cycle 1", ",", "Lzy Mpulse", ",", "sw33ps 1", ",", "Drowning 1", ",", "Electro Aviary", ",", "Computer Room +", ",", "Aleatoric +", ",", "Tippin K", ",", "Fenfr ky", ",", "tremolo organ 2", ",", "WhP Keys 2", ",", "Drone key", ",", "metal cans", ",", "Reptile", ",", "Erratic", ",", "Accent Sequence +", ",", "Dwn To Hppy", ",", "Krellish", ",", "click texture +", ",", "Streetwalking", ",", "Wait For  It", ",", "Anxiety", ",", "Osc Range match", ",", "Basicest", ",", "Basicpuls", ",", "SparsBleep", ",", "Perry", ",", "Wrongos", ",", "Wrongos2", ",", "PerrySpo", ",", "superdrive", ",", "superswing", ",", "SqronkBleep", ",", "Bloos Jargen Deriv", ",", "Distant" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16588,12 +16509,12 @@
 , 													{
 														"in" : 6,
 														"out" : 11,
-														"gain" : 0.175
+														"gain" : 0.855
 													}
 , 													{
 														"in" : 9,
 														"out" : 7,
-														"gain" : 1.0
+														"gain" : 0.905
 													}
 , 													{
 														"in" : 8,
@@ -16609,6 +16530,16 @@
 														"in" : 4,
 														"out" : 0,
 														"gain" : 1.0
+													}
+, 													{
+														"in" : 8,
+														"out" : 10,
+														"gain" : 0.74
+													}
+, 													{
+														"in" : 7,
+														"out" : 9,
+														"gain" : 0.76
 													}
  ]
 											}
@@ -16780,12 +16711,12 @@
 , 										{
 											"in" : 6,
 											"out" : 11,
-											"gain" : 0.175
+											"gain" : 0.855
 										}
 , 										{
 											"in" : 9,
 											"out" : 7,
-											"gain" : 1.0
+											"gain" : 0.905
 										}
 , 										{
 											"in" : 8,
@@ -16801,6 +16732,16 @@
 											"in" : 4,
 											"out" : 0,
 											"gain" : 1.0
+										}
+, 										{
+											"in" : 8,
+											"out" : 10,
+											"gain" : 0.74
+										}
+, 										{
+											"in" : 7,
+											"out" : 9,
+											"gain" : 0.76
 										}
  ],
 									"dividers" : "none",
@@ -17518,7 +17459,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1671.232690552870281, 34.0, 145.0, 22.0 ],
-					"restore" : [ 2869 ],
+					"restore" : [ 4095 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17548,7 +17489,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1431.232690552870281, 8.0, 145.0, 22.0 ],
-					"restore" : [ 1213 ],
+					"restore" : [ 1622 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17578,7 +17519,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1511.232690552870281, 34.0, 145.0, 22.0 ],
-					"restore" : [ 1355 ],
+					"restore" : [ 1764 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17608,7 +17549,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1591.232690552870281, 8.0, 145.0, 22.0 ],
-					"restore" : [ 1032 ],
+					"restore" : [ 1441 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17638,7 +17579,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1751.232690552870281, 8.0, 145.0, 22.0 ],
-					"restore" : [ 2074 ],
+					"restore" : [ 1665 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17668,7 +17609,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1499.0, 284.5, 149.0, 22.0 ],
-					"restore" : [ 317 ],
+					"restore" : [ 3862.410652246268 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17794,7 +17735,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 961.732690552870281, 8.0, 109.0, 22.0 ],
-					"restore" : [ 1250 ],
+					"restore" : [ 1014.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -17844,7 +17785,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1140.899339417616375, 16.0, 100.0, 22.0 ],
-					"restore" : [ 1598 ],
+					"restore" : [ 2064 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -17906,7 +17847,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1300.899339417616375, 16.0, 100.0, 22.0 ],
-					"restore" : [ 3012 ],
+					"restore" : [ 3827 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -18147,7 +18088,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 374.232690552870395, 8.0, 100.0, 22.0 ],
-					"restore" : [ 2478 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18281,7 +18222,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -144.767309447129605, 8.0, 100.0, 22.0 ],
-					"restore" : [ 2050 ],
+					"restore" : [ 1481.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18319,7 +18260,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 15.232690552870395, 8.0, 100.0, 22.0 ],
-					"restore" : [ 217 ],
+					"restore" : [ 940.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18338,7 +18279,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 95.232690552870395, 33.0, 107.0, 22.0 ],
-					"restore" : [ 2288 ],
+					"restore" : [ 2174.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18376,7 +18317,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 931.166648864746094, 794.0, 100.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18452,7 +18393,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1411.166648864746094, 794.0, 125.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18476,15 +18417,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1298.0, 686.663367331027985, 20.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 978.0, 17.0, 20.0, 52.0 ],
 					"range" : 3,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mo_waveshape_",
+							"parameter_longname" : "mo_waveshape_sw",
 							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "mo_waveshape_",
+							"parameter_shortname" : "mo_waveshape_sw",
 							"parameter_type" : 0
 						}
 
@@ -18508,15 +18450,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1419.0, 686.663367331027985, 20.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 978.0, 78.800000250339508, 20.0, 52.0 ],
 					"range" : 3,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mo_modulation_type_",
+							"parameter_longname" : "mo_modulation_type_sw",
 							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "mo_modulation_type_",
+							"parameter_shortname" : "mo_modulation_type_sw",
 							"parameter_type" : 0
 						}
 
@@ -18611,7 +18554,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1298.0, 626.663367331027985, 120.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -25196,7 +25139,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 172.39990299999954, 339.075526654720306, 50.0, 22.0 ],
-													"text" : "2869"
+													"text" : "2"
 												}
 
 											}
@@ -27523,8 +27466,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "seq_stages_[1]",
-							"parameter_shortname" : "seq_stages_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "seq_stages_",
+							"parameter_shortname" : "seq_stages_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27568,8 +27512,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "seq_trigger_[1]",
-							"parameter_shortname" : "seq_trigger_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "seq_trigger_",
+							"parameter_shortname" : "seq_trigger_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27613,8 +27558,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "random_trigger_[1]",
-							"parameter_shortname" : "random_trigger_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "random_trigger_",
+							"parameter_shortname" : "random_trigger_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27703,8 +27649,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "eg_mode_[1]",
-							"parameter_shortname" : "eg_mode_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "eg_mode_",
+							"parameter_shortname" : "eg_mode_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27748,8 +27695,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "pulser_trigger_[1]",
-							"parameter_shortname" : "pulser_trigger_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "pulser_trigger_",
+							"parameter_shortname" : "pulser_trigger_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27793,8 +27741,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "pulser_mode_[1]",
-							"parameter_shortname" : "pulser_mode_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "pulser_mode_",
+							"parameter_shortname" : "pulser_mode_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27838,8 +27787,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "mo_keyboard_[1]",
-							"parameter_shortname" : "mo_keyboard_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "mo_keyboard_",
+							"parameter_shortname" : "mo_keyboard_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27883,8 +27833,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "mo_range_[1]",
-							"parameter_shortname" : "mo_range_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "mo_range_",
+							"parameter_shortname" : "mo_range_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27928,8 +27879,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "mo_waveshape_[1]",
-							"parameter_shortname" : "mo_waveshape_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "mo_waveshape_",
+							"parameter_shortname" : "mo_waveshape_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -27973,8 +27925,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "mo_modulation_type_[1]",
-							"parameter_shortname" : "mo_modulation_type_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "mo_modulation_type_",
+							"parameter_shortname" : "mo_modulation_type_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28018,8 +27971,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "co_keyboard_[1]",
-							"parameter_shortname" : "co_keyboard_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "co_keyboard_",
+							"parameter_shortname" : "co_keyboard_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28063,8 +28017,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "co_polarity_[1]",
-							"parameter_shortname" : "co_polarity_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "co_polarity_",
+							"parameter_shortname" : "co_polarity_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28108,8 +28063,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "co_waveshape_[1]",
-							"parameter_shortname" : "co_waveshape_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "co_waveshape_",
+							"parameter_shortname" : "co_waveshape_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28153,8 +28109,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "dlpg_gate_1_mode_[1]",
-							"parameter_shortname" : "dlpg_gate_1_mode_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "dlpg_gate_1_mode_",
+							"parameter_shortname" : "dlpg_gate_1_mode_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28198,8 +28155,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_1_[1]",
-							"parameter_shortname" : "seq_pulse_1_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "seq_pulse_1_",
+							"parameter_shortname" : "seq_pulse_1_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28243,6 +28201,7 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_linknames" : 1,
 							"parameter_longname" : "seq_pulse_2_",
 							"parameter_shortname" : "seq_pulse_2_",
 							"parameter_type" : 0,
@@ -28288,8 +28247,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_3_[1]",
-							"parameter_shortname" : "seq_pulse_3_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "seq_pulse_3_",
+							"parameter_shortname" : "seq_pulse_3_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28333,8 +28293,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_4_[1]",
-							"parameter_shortname" : "seq_pulse_4_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "seq_pulse_4_",
+							"parameter_shortname" : "seq_pulse_4_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28378,8 +28339,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "seq_pulse_5_[1]",
-							"parameter_shortname" : "seq_pulse_5_[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "seq_pulse_5_",
+							"parameter_shortname" : "seq_pulse_5_",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -28492,21 +28454,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 818.0, 686.663367331027985, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 717.0, 23.000008851289749, 20.0, 51.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "pulser_trigger_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "pulser_trigger_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "pulser_trigger_sw"
 				}
@@ -28525,15 +28478,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 938.0, 686.663367331027985, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 717.0, 77.836641520261765, 20.0, 51.0 ],
 					"range" : 3,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "pulser_mode_",
+							"parameter_longname" : "pulser_mode_sw",
 							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "pulser_mode_",
+							"parameter_shortname" : "pulser_mode_sw",
 							"parameter_type" : 0
 						}
 
@@ -28600,15 +28554,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1058.0, 686.663367331027985, 20.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 918.0, 17.0, 20.0, 52.0 ],
 					"range" : 2,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mo_keyboard_",
+							"parameter_longname" : "mo_keyboard_sw",
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "mo_keyboard_",
+							"parameter_shortname" : "mo_keyboard_sw",
 							"parameter_type" : 0
 						}
 
@@ -28632,15 +28587,16 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1178.0, 686.663367331027985, 20.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 918.0, 78.800000250339508, 20.0, 52.0 ],
 					"range" : 2,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "mo_range_",
+							"parameter_longname" : "mo_range_sw",
 							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "mo_range_",
+							"parameter_shortname" : "mo_range_sw",
 							"parameter_type" : 0
 						}
 
@@ -28747,21 +28703,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 812.166648864746094, 854.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1167.0, 22.0, 20.0, 51.0 ],
 					"range" : 2,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "co_keyboard_",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "co_keyboard_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "co_keyboard_sw"
 				}
@@ -28779,21 +28726,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 931.166648864746094, 854.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1167.0, 92.699999749660492, 20.0, 51.0 ],
 					"range" : 2,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "co_polarity_",
-							"parameter_mmax" : 1.0,
-							"parameter_shortname" : "co_polarity_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "co_polarity_sw"
 				}
@@ -28811,21 +28749,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1051.166648864746094, 854.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1221.0, 69.5, 20.0, 51.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "co_waveshape_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "co_waveshape_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "co_waveshape_sw"
 				}
@@ -28843,21 +28772,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1171.166648864746094, 854.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1286.5, 2.0, 20.0, 51.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "dlpg_gate_1_mode_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "dlpg_gate_1_mode_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "dlpg_gate_1_mode_sw"
 				}
@@ -29160,21 +29080,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1412.166648864746094, 854.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1413.5, 22.0, 20.0, 51.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "dlpg_gate_2_src_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "dlpg_gate_2_src_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "dlpg_gate_2_src_sw"
 				}
@@ -29192,21 +29103,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1292.166648864746094, 854.0, 20.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1375.5, 2.0, 20.0, 51.0 ],
 					"range" : 3,
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "dlpg_gate_2_mode_",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "dlpg_gate_2_mode_",
-							"parameter_type" : 0
-						}
-
-					}
-,
 					"snap" : 1,
 					"varname" : "dlpg_gate_2_mode_sw"
 				}
@@ -31125,44 +31027,44 @@
 			"obj-18" : [ "pulser_start_", "pulser_start_", 0 ],
 			"obj-181" : [ "open_LFO_2", "open_LFO_2", 0 ],
 			"obj-182::obj-10" : [ "LFO_Jitter[4]", "LFO_Jitter[1]", 0 ],
-			"obj-182::obj-120" : [ "LFO_Offset[4]", "LFO_Offset[1]", 0 ],
-			"obj-182::obj-140" : [ "LFO_Phase[6]", "LFO_Phase[1]", 0 ],
-			"obj-182::obj-173" : [ "LFO_dest[4]", "LFO_dest[1]", 0 ],
-			"obj-182::obj-26" : [ "LFO Time Mode[1]", "Time Mode", 0 ],
-			"obj-182::obj-55" : [ "LFO_Hold[3]", "LFO_Hold[1]", 0 ],
-			"obj-182::obj-58" : [ "LFO_Sync_Rate[4]", "LFO_Sync_Rate[1]", 0 ],
-			"obj-182::obj-69" : [ "LFO_Smooth[4]", "LFO_Smooth[1]", 0 ],
-			"obj-182::obj-79" : [ "LFO_Shape[4]", "LFO_Shape[1]", 0 ],
-			"obj-182::obj-89" : [ "LFO_FreqRate[6]", "LFO_FreqRate[1]", 0 ],
-			"obj-182::obj-94" : [ "LFO_re-trigger[3]", "LFO_re-trigger[1]", 0 ],
-			"obj-182::obj-99" : [ "LFO_Depth[4]", "LFO_Depth[1]", 0 ],
+			"obj-182::obj-120" : [ "LFO_Offset[7]", "LFO_Offset[1]", 0 ],
+			"obj-182::obj-140" : [ "LFO_Phase[3]", "LFO_Phase[1]", 0 ],
+			"obj-182::obj-173" : [ "LFO_dest[7]", "LFO_dest[1]", 0 ],
+			"obj-182::obj-26" : [ "LFO Time Mode[3]", "Time Mode", 0 ],
+			"obj-182::obj-55" : [ "LFO_Hold[6]", "LFO_Hold[1]", 0 ],
+			"obj-182::obj-58" : [ "LFO_Sync_Rate[7]", "LFO_Sync_Rate[1]", 0 ],
+			"obj-182::obj-69" : [ "LFO_Smooth[7]", "LFO_Smooth[1]", 0 ],
+			"obj-182::obj-79" : [ "LFO_Shape[7]", "LFO_Shape[1]", 0 ],
+			"obj-182::obj-89" : [ "LFO_FreqRate[3]", "LFO_FreqRate[1]", 0 ],
+			"obj-182::obj-94" : [ "LFO_re-trigger[6]", "LFO_re-trigger[1]", 0 ],
+			"obj-182::obj-99" : [ "LFO_Depth[7]", "LFO_Depth[1]", 0 ],
 			"obj-185" : [ "open_LFO_3", "open_LFO_3", 0 ],
-			"obj-186::obj-10" : [ "LFO_Jitter[7]", "LFO_Jitter[1]", 0 ],
-			"obj-186::obj-120" : [ "LFO_Offset[3]", "LFO_Offset[1]", 0 ],
-			"obj-186::obj-140" : [ "LFO_Phase[5]", "LFO_Phase[1]", 0 ],
-			"obj-186::obj-173" : [ "LFO_dest[3]", "LFO_dest[1]", 0 ],
-			"obj-186::obj-26" : [ "LFO Time Mode[8]", "Time Mode", 0 ],
-			"obj-186::obj-55" : [ "LFO_Hold[2]", "LFO_Hold[1]", 0 ],
-			"obj-186::obj-58" : [ "LFO_Sync_Rate[3]", "LFO_Sync_Rate[1]", 0 ],
-			"obj-186::obj-69" : [ "LFO_Smooth[3]", "LFO_Smooth[1]", 0 ],
-			"obj-186::obj-79" : [ "LFO_Shape[3]", "LFO_Shape[1]", 0 ],
-			"obj-186::obj-89" : [ "LFO_FreqRate[5]", "LFO_FreqRate[1]", 0 ],
-			"obj-186::obj-94" : [ "LFO_re-trigger[2]", "LFO_re-trigger[1]", 0 ],
-			"obj-186::obj-99" : [ "LFO_Depth[3]", "LFO_Depth[1]", 0 ],
+			"obj-186::obj-10" : [ "LFO_Jitter[3]", "LFO_Jitter[1]", 0 ],
+			"obj-186::obj-120" : [ "LFO_Offset[6]", "LFO_Offset[1]", 0 ],
+			"obj-186::obj-140" : [ "LFO_Phase[2]", "LFO_Phase[1]", 0 ],
+			"obj-186::obj-173" : [ "LFO_dest[6]", "LFO_dest[1]", 0 ],
+			"obj-186::obj-26" : [ "LFO Time Mode[2]", "Time Mode", 0 ],
+			"obj-186::obj-55" : [ "LFO_Hold[5]", "LFO_Hold[1]", 0 ],
+			"obj-186::obj-58" : [ "LFO_Sync_Rate[6]", "LFO_Sync_Rate[1]", 0 ],
+			"obj-186::obj-69" : [ "LFO_Smooth[6]", "LFO_Smooth[1]", 0 ],
+			"obj-186::obj-79" : [ "LFO_Shape[6]", "LFO_Shape[1]", 0 ],
+			"obj-186::obj-89" : [ "LFO_FreqRate[2]", "LFO_FreqRate[1]", 0 ],
+			"obj-186::obj-94" : [ "LFO_re-trigger[5]", "LFO_re-trigger[1]", 0 ],
+			"obj-186::obj-99" : [ "LFO_Depth[6]", "LFO_Depth[1]", 0 ],
 			"obj-187" : [ "lfo_dest[1]", "lfo_dest[1]", 0 ],
 			"obj-193" : [ "open_LFO_4", "open_LFO_4", 0 ],
-			"obj-194::obj-10" : [ "LFO_Jitter[3]", "LFO_Jitter[1]", 0 ],
-			"obj-194::obj-120" : [ "LFO_Offset[2]", "LFO_Offset[1]", 0 ],
-			"obj-194::obj-140" : [ "LFO_Phase[4]", "LFO_Phase[1]", 0 ],
-			"obj-194::obj-173" : [ "LFO_dest[2]", "LFO_dest[1]", 0 ],
-			"obj-194::obj-26" : [ "LFO Time Mode[7]", "Time Mode", 0 ],
-			"obj-194::obj-55" : [ "LFO_Hold[8]", "LFO_Hold[1]", 0 ],
-			"obj-194::obj-58" : [ "LFO_Sync_Rate[2]", "LFO_Sync_Rate[1]", 0 ],
-			"obj-194::obj-69" : [ "LFO_Smooth[2]", "LFO_Smooth[1]", 0 ],
-			"obj-194::obj-79" : [ "LFO_Shape[2]", "LFO_Shape[1]", 0 ],
-			"obj-194::obj-89" : [ "LFO_FreqRate[4]", "LFO_FreqRate[1]", 0 ],
-			"obj-194::obj-94" : [ "LFO_re-trigger[8]", "LFO_re-trigger[1]", 0 ],
-			"obj-194::obj-99" : [ "LFO_Depth[2]", "LFO_Depth[1]", 0 ],
+			"obj-194::obj-10" : [ "LFO_Jitter[2]", "LFO_Jitter[1]", 0 ],
+			"obj-194::obj-120" : [ "LFO_Offset[5]", "LFO_Offset[1]", 0 ],
+			"obj-194::obj-140" : [ "LFO_Phase[7]", "LFO_Phase[1]", 0 ],
+			"obj-194::obj-173" : [ "LFO_dest[5]", "LFO_dest[1]", 0 ],
+			"obj-194::obj-26" : [ "LFO Time Mode[1]", "Time Mode", 0 ],
+			"obj-194::obj-55" : [ "LFO_Hold[4]", "LFO_Hold[1]", 0 ],
+			"obj-194::obj-58" : [ "LFO_Sync_Rate[5]", "LFO_Sync_Rate[1]", 0 ],
+			"obj-194::obj-69" : [ "LFO_Smooth[5]", "LFO_Smooth[1]", 0 ],
+			"obj-194::obj-79" : [ "LFO_Shape[5]", "LFO_Shape[1]", 0 ],
+			"obj-194::obj-89" : [ "LFO_FreqRate[7]", "LFO_FreqRate[1]", 0 ],
+			"obj-194::obj-94" : [ "LFO_re-trigger[4]", "LFO_re-trigger[1]", 0 ],
+			"obj-194::obj-99" : [ "LFO_Depth[5]", "LFO_Depth[1]", 0 ],
 			"obj-195" : [ "lfo_dest[2]", "lfo_dest[2]", 0 ],
 			"obj-196" : [ "lfo_dest[3]", "lfo_dest[3]", 0 ],
 			"obj-197" : [ "lfo_dest[4]", "lfo_dest[4]", 0 ],
@@ -31170,58 +31072,42 @@
 			"obj-275::obj-1" : [ "rndpatch[1]", "rndpatch", 0 ],
 			"obj-275::obj-106" : [ "rndpatch", "rndpatch", 0 ],
 			"obj-275::obj-3" : [ "patchbay_", "patchbay_", 0 ],
-			"obj-280" : [ "seq_stages_[1]", "seq_stages_[1]", 0 ],
-			"obj-282" : [ "seq_pulse_1_[1]", "seq_pulse_1_[1]", 0 ],
+			"obj-280" : [ "seq_stages_", "seq_stages_", 0 ],
+			"obj-282" : [ "seq_pulse_1_", "seq_pulse_1_", 0 ],
 			"obj-284" : [ "seq_pulse_2_", "seq_pulse_2_", 0 ],
-			"obj-286" : [ "seq_pulse_3_[1]", "seq_pulse_3_[1]", 0 ],
-			"obj-288" : [ "seq_pulse_4_[1]", "seq_pulse_4_[1]", 0 ],
+			"obj-286" : [ "seq_pulse_3_", "seq_pulse_3_", 0 ],
+			"obj-288" : [ "seq_pulse_4_", "seq_pulse_4_", 0 ],
 			"obj-29" : [ "seq_voltage_level_1_", "seq_voltage_level_1_", 0 ],
-			"obj-290" : [ "seq_pulse_5_[1]", "seq_pulse_5_[1]", 0 ],
-			"obj-292" : [ "seq_trigger_[1]", "seq_trigger_[1]", 0 ],
-			"obj-294" : [ "random_trigger_[1]", "random_trigger_[1]", 0 ],
+			"obj-290" : [ "seq_pulse_5_", "seq_pulse_5_", 0 ],
+			"obj-292" : [ "seq_trigger_", "seq_trigger_", 0 ],
+			"obj-294" : [ "random_trigger_", "random_trigger_", 0 ],
 			"obj-296" : [ "eg_trigger_[1]", "eg_trigger_[1]", 0 ],
-			"obj-298" : [ "eg_mode_[1]", "eg_mode_[1]", 0 ],
+			"obj-298" : [ "eg_mode_", "eg_mode_", 0 ],
 			"obj-3" : [ "co_waveshape_knob_", "co_waveshape_knob_", 0 ],
-			"obj-300" : [ "pulser_trigger_[1]", "pulser_trigger_[1]", 0 ],
-			"obj-302" : [ "pulser_mode_[1]", "pulser_mode_[1]", 0 ],
-			"obj-304" : [ "mo_keyboard_[1]", "mo_keyboard_[1]", 0 ],
-			"obj-306" : [ "mo_range_[1]", "mo_range_[1]", 0 ],
-			"obj-308" : [ "mo_waveshape_[1]", "mo_waveshape_[1]", 0 ],
-			"obj-310" : [ "mo_modulation_type_[1]", "mo_modulation_type_[1]", 0 ],
-			"obj-312" : [ "co_keyboard_[1]", "co_keyboard_[1]", 0 ],
-			"obj-314" : [ "co_polarity_[1]", "co_polarity_[1]", 0 ],
-			"obj-316" : [ "co_waveshape_[1]", "co_waveshape_[1]", 0 ],
-			"obj-318" : [ "dlpg_gate_1_mode_[1]", "dlpg_gate_1_mode_[1]", 0 ],
+			"obj-300" : [ "pulser_trigger_", "pulser_trigger_", 0 ],
+			"obj-302" : [ "pulser_mode_", "pulser_mode_", 0 ],
+			"obj-304" : [ "mo_keyboard_", "mo_keyboard_", 0 ],
+			"obj-306" : [ "mo_range_", "mo_range_", 0 ],
+			"obj-308" : [ "mo_waveshape_", "mo_waveshape_", 0 ],
+			"obj-310" : [ "mo_modulation_type_", "mo_modulation_type_", 0 ],
+			"obj-312" : [ "co_keyboard_", "co_keyboard_", 0 ],
+			"obj-314" : [ "co_polarity_", "co_polarity_", 0 ],
+			"obj-316" : [ "co_waveshape_", "co_waveshape_", 0 ],
+			"obj-318" : [ "dlpg_gate_1_mode_", "dlpg_gate_1_mode_", 0 ],
 			"obj-31::obj-29" : [ "pictslider", "pictslider", 0 ],
 			"obj-31::obj-5" : [ "pictctrl", "pictctrl", 0 ],
 			"obj-32" : [ "seq_voltage_level_2_", "seq_voltage_level_2_", 0 ],
-			"obj-320" : [ "dlpg_gate_2_mode_[1]", "dlpg_gate_2_mode_[1]", 0 ],
-			"obj-322" : [ "dlpg_gate_2_src_[1]", "dlpg_gate_2_src_[1]", 0 ],
+			"obj-320" : [ "dlpg_gate_2_mode_", "dlpg_gate_2_mode_", 0 ],
+			"obj-322" : [ "dlpg_gate_2_src_", "dlpg_gate_2_src_", 0 ],
 			"obj-323" : [ "co_waveshape_knob_[1]", "seq_voltage_level_5_", 0 ],
 			"obj-37" : [ "pulseperiod_sync", "pp_sync", 0 ],
 			"obj-38" : [ "seq_voltage_level_4", "seq_voltage_level_4", 0 ],
-			"obj-494" : [ "seq_stages_", "seq_stages_", 0 ],
-			"obj-496" : [ "seq_pulse_1_", "seq_pulse_1_", 0 ],
-			"obj-498" : [ "seq_pulse_2_sw", "seq_pulse_2_", 0 ],
-			"obj-500" : [ "seq_pulse_3_", "seq_pulse_3_", 0 ],
-			"obj-502" : [ "seq_pulse_4_", "seq_pulse_4_", 0 ],
-			"obj-504" : [ "seq_pulse_5_", "seq_pulse_5_", 0 ],
-			"obj-506" : [ "seq_trigger_", "seq_trigger_", 0 ],
-			"obj-508" : [ "random_trigger_", "random_trigger_", 0 ],
-			"obj-510" : [ "eg_trigger_", "eg_trigger_", 0 ],
-			"obj-512" : [ "eg_mode_", "eg_mode_", 0 ],
-			"obj-514" : [ "pulser_trigger_", "pulser_trigger_", 0 ],
-			"obj-516" : [ "pulser_mode_", "pulser_mode_", 0 ],
-			"obj-518" : [ "mo_keyboard_", "mo_keyboard_", 0 ],
-			"obj-520" : [ "mo_range_", "mo_range_", 0 ],
-			"obj-522" : [ "mo_waveshape_", "mo_waveshape_", 0 ],
-			"obj-524" : [ "mo_modulation_type_", "mo_modulation_type_", 0 ],
-			"obj-526" : [ "co_keyboard_", "co_keyboard_", 0 ],
-			"obj-528" : [ "co_polarity_", "co_polarity_", 0 ],
-			"obj-530" : [ "co_waveshape_", "co_waveshape_", 0 ],
-			"obj-532" : [ "dlpg_gate_1_mode_", "dlpg_gate_1_mode_", 0 ],
-			"obj-534" : [ "dlpg_gate_2_mode_", "dlpg_gate_2_mode_", 0 ],
-			"obj-536" : [ "dlpg_gate_2_src_", "dlpg_gate_2_src_", 0 ],
+			"obj-494" : [ "seq_stages_sw", "seq_stages_sw", 0 ],
+			"obj-516" : [ "pulser_mode_sw", "pulser_mode_sw", 0 ],
+			"obj-518" : [ "mo_keyboard_sw", "mo_keyboard_sw", 0 ],
+			"obj-520" : [ "mo_range_sw", "mo_range_sw", 0 ],
+			"obj-522" : [ "mo_waveshape_sw", "mo_waveshape_sw", 0 ],
+			"obj-524" : [ "mo_modulation_type_sw", "mo_modulation_type_sw", 0 ],
 			"obj-64" : [ "rnd_co", "rnd_co_sliders", 0 ],
 			"obj-71" : [ "seq_voltage_level_3_", "seq_voltage_level_3_", 0 ],
 			"obj-74::obj-5" : [ "save_new", "save_new", 0 ],
@@ -31275,7 +31161,7 @@
 					"parameter_linknames" : 1,
 					"parameter_longname" : "LFO_dest[1]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "[none]", "co_pitch", "co_pitch_cv", "co_timbre", "co_timbre_cv", "mo_freq", "mo_freq_cv", "mo_mod", "mo_mod_cv", "dlpg_level_1", "dlpg_level_1_cv", "dlpg_level_2", "dlpg_level_2_cv", "pulser_period", "pulser_cv", "eg_attack", "eg_sustain", "eg_decay", "seq_voltage_level_1", "seq_voltage_level_2", "seq_voltage_level_3", "seq_voltage_level_4", "seq_voltage_level_5", "co_waveshape_knob" ],
+					"parameter_range" : [ "[none]", "co_pitch", "co_pitch_cv", "co_timbre", "co_timbre_cv", "mo_freq", "mo_freq_cv", "mo_mod", "mo_mod_cv", "dlpg_level_1", "dlpg_level_1_cv", "dlpg_level_2", "dlpg_level_2_cv", "pulser_period", "pulser_cv", "eg_attack", "eg_sustain", "eg_decay", "seq_voltage_level_1", "seq_voltage_level_2", "seq_voltage_level_3", "seq_voltage_level_4", "seq_voltage_level_5", "co_waveshape_knob", "co_waveshape", "co_polarity", "mo_waveshape" ],
 					"parameter_shortname" : "LFO_dest[1]",
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
@@ -31327,143 +31213,143 @@
 				}
 ,
 				"obj-182::obj-120" : 				{
-					"parameter_longname" : "LFO_Offset[4]"
+					"parameter_longname" : "LFO_Offset[7]"
 				}
 ,
 				"obj-182::obj-140" : 				{
-					"parameter_longname" : "LFO_Phase[6]"
+					"parameter_longname" : "LFO_Phase[3]"
 				}
 ,
 				"obj-182::obj-173" : 				{
-					"parameter_longname" : "LFO_dest[4]"
+					"parameter_longname" : "LFO_dest[7]"
 				}
 ,
 				"obj-182::obj-26" : 				{
-					"parameter_longname" : "LFO Time Mode[1]"
+					"parameter_longname" : "LFO Time Mode[3]"
 				}
 ,
 				"obj-182::obj-55" : 				{
-					"parameter_longname" : "LFO_Hold[3]"
+					"parameter_longname" : "LFO_Hold[6]"
 				}
 ,
 				"obj-182::obj-58" : 				{
-					"parameter_longname" : "LFO_Sync_Rate[4]"
+					"parameter_longname" : "LFO_Sync_Rate[7]"
 				}
 ,
 				"obj-182::obj-69" : 				{
-					"parameter_longname" : "LFO_Smooth[4]"
+					"parameter_longname" : "LFO_Smooth[7]"
 				}
 ,
 				"obj-182::obj-79" : 				{
-					"parameter_longname" : "LFO_Shape[4]"
+					"parameter_longname" : "LFO_Shape[7]"
 				}
 ,
 				"obj-182::obj-89" : 				{
-					"parameter_longname" : "LFO_FreqRate[6]"
+					"parameter_longname" : "LFO_FreqRate[3]"
 				}
 ,
 				"obj-182::obj-94" : 				{
-					"parameter_longname" : "LFO_re-trigger[3]"
+					"parameter_longname" : "LFO_re-trigger[6]"
 				}
 ,
 				"obj-182::obj-99" : 				{
-					"parameter_longname" : "LFO_Depth[4]"
+					"parameter_longname" : "LFO_Depth[7]"
 				}
 ,
 				"obj-186::obj-10" : 				{
-					"parameter_longname" : "LFO_Jitter[7]"
-				}
-,
-				"obj-186::obj-120" : 				{
-					"parameter_longname" : "LFO_Offset[3]"
-				}
-,
-				"obj-186::obj-140" : 				{
-					"parameter_longname" : "LFO_Phase[5]"
-				}
-,
-				"obj-186::obj-173" : 				{
-					"parameter_longname" : "LFO_dest[3]"
-				}
-,
-				"obj-186::obj-26" : 				{
-					"parameter_longname" : "LFO Time Mode[8]"
-				}
-,
-				"obj-186::obj-55" : 				{
-					"parameter_longname" : "LFO_Hold[2]"
-				}
-,
-				"obj-186::obj-58" : 				{
-					"parameter_longname" : "LFO_Sync_Rate[3]"
-				}
-,
-				"obj-186::obj-69" : 				{
-					"parameter_longname" : "LFO_Smooth[3]"
-				}
-,
-				"obj-186::obj-79" : 				{
-					"parameter_longname" : "LFO_Shape[3]"
-				}
-,
-				"obj-186::obj-89" : 				{
-					"parameter_longname" : "LFO_FreqRate[5]"
-				}
-,
-				"obj-186::obj-94" : 				{
-					"parameter_longname" : "LFO_re-trigger[2]"
-				}
-,
-				"obj-186::obj-99" : 				{
-					"parameter_longname" : "LFO_Depth[3]"
-				}
-,
-				"obj-194::obj-10" : 				{
 					"parameter_longname" : "LFO_Jitter[3]"
 				}
 ,
+				"obj-186::obj-120" : 				{
+					"parameter_longname" : "LFO_Offset[6]"
+				}
+,
+				"obj-186::obj-140" : 				{
+					"parameter_longname" : "LFO_Phase[2]"
+				}
+,
+				"obj-186::obj-173" : 				{
+					"parameter_longname" : "LFO_dest[6]"
+				}
+,
+				"obj-186::obj-26" : 				{
+					"parameter_longname" : "LFO Time Mode[2]"
+				}
+,
+				"obj-186::obj-55" : 				{
+					"parameter_longname" : "LFO_Hold[5]"
+				}
+,
+				"obj-186::obj-58" : 				{
+					"parameter_longname" : "LFO_Sync_Rate[6]"
+				}
+,
+				"obj-186::obj-69" : 				{
+					"parameter_longname" : "LFO_Smooth[6]"
+				}
+,
+				"obj-186::obj-79" : 				{
+					"parameter_longname" : "LFO_Shape[6]"
+				}
+,
+				"obj-186::obj-89" : 				{
+					"parameter_longname" : "LFO_FreqRate[2]"
+				}
+,
+				"obj-186::obj-94" : 				{
+					"parameter_longname" : "LFO_re-trigger[5]"
+				}
+,
+				"obj-186::obj-99" : 				{
+					"parameter_longname" : "LFO_Depth[6]"
+				}
+,
+				"obj-194::obj-10" : 				{
+					"parameter_longname" : "LFO_Jitter[2]"
+				}
+,
 				"obj-194::obj-120" : 				{
-					"parameter_longname" : "LFO_Offset[2]"
+					"parameter_longname" : "LFO_Offset[5]"
 				}
 ,
 				"obj-194::obj-140" : 				{
-					"parameter_longname" : "LFO_Phase[4]"
+					"parameter_longname" : "LFO_Phase[7]"
 				}
 ,
 				"obj-194::obj-173" : 				{
-					"parameter_longname" : "LFO_dest[2]"
+					"parameter_longname" : "LFO_dest[5]"
 				}
 ,
 				"obj-194::obj-26" : 				{
-					"parameter_longname" : "LFO Time Mode[7]"
+					"parameter_longname" : "LFO Time Mode[1]"
 				}
 ,
 				"obj-194::obj-55" : 				{
-					"parameter_longname" : "LFO_Hold[8]"
+					"parameter_longname" : "LFO_Hold[4]"
 				}
 ,
 				"obj-194::obj-58" : 				{
-					"parameter_longname" : "LFO_Sync_Rate[2]"
+					"parameter_longname" : "LFO_Sync_Rate[5]"
 				}
 ,
 				"obj-194::obj-69" : 				{
-					"parameter_longname" : "LFO_Smooth[2]"
+					"parameter_longname" : "LFO_Smooth[5]"
 				}
 ,
 				"obj-194::obj-79" : 				{
-					"parameter_longname" : "LFO_Shape[2]"
+					"parameter_longname" : "LFO_Shape[5]"
 				}
 ,
 				"obj-194::obj-89" : 				{
-					"parameter_longname" : "LFO_FreqRate[4]"
+					"parameter_longname" : "LFO_FreqRate[7]"
 				}
 ,
 				"obj-194::obj-94" : 				{
-					"parameter_longname" : "LFO_re-trigger[8]"
+					"parameter_longname" : "LFO_re-trigger[4]"
 				}
 ,
 				"obj-194::obj-99" : 				{
-					"parameter_longname" : "LFO_Depth[2]"
+					"parameter_longname" : "LFO_Depth[5]"
 				}
 
 			}
