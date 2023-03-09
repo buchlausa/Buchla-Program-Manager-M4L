@@ -278,15 +278,15 @@
 							"parameter_enum" : [ "[none]", "co_pitch", "co_pitch_cv", "co_timbre", "co_timbre_cv", "mo_freq", "mo_freq_cv", "mo_mod", "mo_mod_cv", "dlpg_level_1", "dlpg_level_1_cv", "dlpg_level_2", "dlpg_level_2_cv", "pulser_period", "pulser_cv", "eg_attack", "eg_sustain", "eg_decay", "seq_voltage_level_1", "seq_voltage_level_2", "seq_voltage_level_3", "seq_voltage_level_4", "seq_voltage_level_5", "co_waveshape_knob" ],
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "LFOdest",
+							"parameter_longname" : "LFO_dest[1]",
 							"parameter_mmax" : 23,
-							"parameter_shortname" : "LFOdest",
+							"parameter_shortname" : "LFO_dest[1]",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "LFOdest"
+					"varname" : "LFO_dest[1]"
 				}
 
 			}
@@ -1293,9 +1293,9 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Jitter",
+							"parameter_longname" : "LFO_Jitter[1]",
 							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "Jitter",
+							"parameter_shortname" : "LFO_Jitter[1]",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -1305,7 +1305,7 @@
 ,
 					"textcolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
 					"textjustification" : 0,
-					"varname" : "Jitter"
+					"varname" : "LFO_Jitter[1]"
 				}
 
 			}
@@ -1353,6 +1353,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 494.666687000000024, 258.5, 24.0, 24.0 ]
 				}
 
@@ -3421,10 +3422,10 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Offset",
+							"parameter_longname" : "LFO_Offset[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
-							"parameter_shortname" : "Offset",
+							"parameter_shortname" : "LFO_Offset[1]",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -3433,7 +3434,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "Offset"
+					"varname" : "LFO_Offset[1]"
 				}
 
 			}
@@ -3461,7 +3462,7 @@
 							"parameter_annotation_name" : "Time Mode",
 							"parameter_enum" : [ "Free", "Sync" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Time Mode",
+							"parameter_longname" : "LFO Time Mode",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Time Mode",
 							"parameter_type" : 2,
@@ -3472,7 +3473,7 @@
 ,
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "Time Mode"
+					"varname" : "LFO Time Mode"
 				}
 
 			}
@@ -3516,16 +3517,16 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Phase",
+							"parameter_longname" : "LFO_Phase[1]",
 							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "Phase",
+							"parameter_shortname" : "LFO_Phase[1]",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
 						}
 
 					}
 ,
-					"varname" : "Phase"
+					"varname" : "LFO_Phase[1]"
 				}
 
 			}
@@ -3578,9 +3579,9 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Smooth",
+							"parameter_longname" : "LFO_Smooth[1]",
 							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "Smooth",
+							"parameter_shortname" : "LFO_Smooth[1]",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
@@ -3590,7 +3591,7 @@
 ,
 					"textcolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
 					"textjustification" : 0,
-					"varname" : "Smooth"
+					"varname" : "LFO_Smooth[1]"
 				}
 
 			}
@@ -3989,16 +3990,17 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
-							"parameter_longname" : "Re-Trigger",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "LFO_re-trigger[1]",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Re-Trigger",
+							"parameter_shortname" : "LFO_re-trigger[1]",
 							"parameter_type" : 2
 						}
 
 					}
 ,
 					"text" : "R",
-					"varname" : "re-trigger"
+					"varname" : "LFO_re-trigger[1]"
 				}
 
 			}
@@ -4024,10 +4026,10 @@
 							"parameter_initial" : [ 15 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Sync Rate",
+							"parameter_longname" : "LFO_Sync_Rate[1]",
 							"parameter_mapping_index" : 3,
 							"parameter_mmax" : 23,
-							"parameter_shortname" : "Rate",
+							"parameter_shortname" : "LFO_Sync_Rate[1]",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
@@ -4035,7 +4037,7 @@
 
 					}
 ,
-					"varname" : "Sync Rate"
+					"varname" : "LFO_Sync_Rate[1]"
 				}
 
 			}
@@ -4086,10 +4088,10 @@
 							"parameter_annotation_name" : "LFO",
 							"parameter_enum" : [ "Sine", "Up", "Down", "Triangle", "Square", "Random", "Bin" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Shape",
+							"parameter_longname" : "LFO_Shape[1]",
 							"parameter_mapping_index" : 2,
 							"parameter_mmax" : 6,
-							"parameter_shortname" : "Shape",
+							"parameter_shortname" : "LFO_Shape[1]",
 							"parameter_type" : 2
 						}
 
@@ -4097,7 +4099,7 @@
 ,
 					"textcolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
 					"tricolor" : [ 1.0, 0.709804, 0.196078, 1.0 ],
-					"varname" : "Shape"
+					"varname" : "LFO_Shape[1]"
 				}
 
 			}
@@ -5450,9 +5452,9 @@
 							"parameter_annotation_name" : "Hold",
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Hold",
+							"parameter_longname" : "LFO_Hold[1]",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "Hold",
+							"parameter_shortname" : "LFO_Hold[1]",
 							"parameter_type" : 2
 						}
 
@@ -5460,7 +5462,7 @@
 ,
 					"text" : "Hold",
 					"texton" : "Hold",
-					"varname" : "Hold"
+					"varname" : "LFO_Hold[1]"
 				}
 
 			}
@@ -5893,10 +5895,10 @@
 							"parameter_annotation_name" : "Depth",
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Depth",
+							"parameter_longname" : "LFO_Depth[1]",
 							"parameter_mapping_index" : 5,
 							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "Depth",
+							"parameter_shortname" : "LFO_Depth[1]",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -5904,7 +5906,7 @@
 
 					}
 ,
-					"varname" : "Depth"
+					"varname" : "LFO_Depth[1]"
 				}
 
 			}
@@ -5954,10 +5956,11 @@
 							"parameter_exponent" : 2.666666,
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "Freq Rate",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "LFO_FreqRate[1]",
 							"parameter_mapping_index" : 4,
 							"parameter_mmax" : 40.0,
-							"parameter_shortname" : "Rate",
+							"parameter_shortname" : "LFO_FreqRate[1]",
 							"parameter_speedlim" : 0.0,
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -5965,7 +5968,7 @@
 
 					}
 ,
-					"varname" : "FreqRate"
+					"varname" : "LFO_FreqRate[1]"
 				}
 
 			}
@@ -7307,7 +7310,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ],
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"id" : "obj-34",
 					"maxclass" : "panel",
 					"mode" : 0,

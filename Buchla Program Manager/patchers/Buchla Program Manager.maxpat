@@ -40,6 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.0,
+					"id" : "obj-172",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 228.833333333333371, 806.593446016311646, 48.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 70.828571345124828, 148.0, 48.0, 19.0 ],
+					"triscale" : 0.0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-205",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1785,6 +1804,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 95.232690552870395, 892.43565970659256, 15.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.928571428571331, 150.0, 15.0, 15.0 ],
@@ -1792,16 +1812,16 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_info" : "This indicates that data is being sent to the Program Manager Card. Messages are slowed considerably. You'll notice that when you use the \"blend\" slider, which sends out a lot of data, the light will keep blinking long after you stop using the slider.",
-							"parameter_longname" : "live.button",
+							"parameter_longname" : "sending_midi",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.button",
+							"parameter_shortname" : "sending_midi",
 							"parameter_speedlim" : 100.0,
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.button"
+					"varname" : "sending_midi"
 				}
 
 			}
@@ -3694,7 +3714,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 528.0, 330.0, 1201.0, 631.0 ],
+						"rect" : [ 332.0, 172.0, 557.0, 73.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -4225,7 +4245,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 10.0, 29.918320760130882, 160.0, 29.0 ],
 									"rounded" : 2.0,
-									"text" : "timbreSweep"
+									"text" : "Distant Stars"
 								}
 
 							}
@@ -4578,7 +4598,7 @@
 					"patching_rect" : [ 482.0, 259.0, 125.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.928571428571331, 45.970751166343689, 93.0, 18.0 ],
-					"text" : "..",
+					"text" : "Bloos Jargen 1",
 					"varname" : "patch_name_lt"
 				}
 
@@ -4594,7 +4614,7 @@
 					"patching_rect" : [ 482.0, 279.0, 125.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 45.970751166343689, 93.0, 18.0 ],
-					"text" : "..",
+					"text" : "Aleatoric +",
 					"textjustification" : 2,
 					"varname" : "patch_name_rt"
 				}
@@ -6152,7 +6172,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"items" : [ "Bongos-2", ",", "It&apos;s Alive", ",", "Bongos Lo", ",", "Bloos Jargen 1", ",", "Shifting", ",", "Krellmuse", ",", "Random", ",", "Pkkksm +", ",", "Warm Pulse Seq", ",", "Basic Keyb", ",", "Woodpluck 1", ",", "Wood 5", ",", "Bass Pizz P", ",", "Key 80", ",", "zrppi", ",", "electric glitch", ",", "ebbflow", ",", "timbreSweep", ",", "Drogn-k", ",", "Bouncy bird", ",", "Drops 1", ",", "WP Seq 1", ",", "WhP Cycle 1", ",", "Lzy Mpulse", ",", "sw33ps 1", ",", "Drowning 1", ",", "Electro Aviary", ",", "Computer Room +", ",", "Aleatoric +", ",", "Tippin K", ",", "Fenfr ky", ",", "tremolo organ 2", ",", "WhP Keys 2", ",", "Drone key", ",", "metal cans", ",", "Reptile", ",", "Erratic", ",", "Accent Sequence +", ",", "Dwn To Hppy", ",", "Krellish", ",", "click texture +", ",", "Streetwalking", ",", "Wait For  It", ",", "Anxiety", ",", "Osc Range match", ",", "Basicest", ",", "Basicpuls", ",", "SparsBleep", ",", "Perry", ",", "Wrongos", ",", "Wrongos2", ",", "PerrySpo", ",", "superdrive", ",", "superswing", ",", "SqronkBleep" ],
+					"items" : [ "Bongos-2", ",", "It&apos;s Alive", ",", "Bongos Lo", ",", "Bloos Jargen 1", ",", "Shifting", ",", "Krellmuse", ",", "Random", ",", "Pkkksm +", ",", "Warm Pulse Seq", ",", "Basic Keyb", ",", "Woodpluck 1", ",", "Wood 5", ",", "Bass Pizz P", ",", "Key 80", ",", "zrppi", ",", "electric glitch", ",", "ebbflow", ",", "timbreSweep", ",", "Drogn-k", ",", "Bouncy bird", ",", "Drops 1", ",", "WP Seq 1", ",", "WhP Cycle 1", ",", "Lzy Mpulse", ",", "sw33ps 1", ",", "Drowning 1", ",", "Electro Aviary", ",", "Computer Room +", ",", "Aleatoric +", ",", "Tippin K", ",", "Fenfr ky", ",", "tremolo organ 2", ",", "WhP Keys 2", ",", "Drone key", ",", "metal cans", ",", "Reptile", ",", "Erratic", ",", "Accent Sequence +", ",", "Dwn To Hppy", ",", "Krellish", ",", "click texture +", ",", "Streetwalking", ",", "Wait For  It", ",", "Anxiety", ",", "Osc Range match", ",", "Basicest", ",", "Basicpuls", ",", "SparsBleep", ",", "Perry", ",", "Wrongos", ",", "Wrongos2", ",", "PerrySpo", ",", "superdrive", ",", "superswing", ",", "SqronkBleep", ",", "Bloos Jargen Deriv" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13584,7 +13604,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 195.0, 306.0, 1184.0, 984.0 ],
+						"rect" : [ 410.0, 668.0, 500.0, 447.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -16541,8 +16561,23 @@
 												"numins" : 14,
 												"numouts" : 12,
 												"connections" : [ 													{
-														"in" : 1,
+														"in" : 0,
+														"out" : 3,
+														"gain" : 1.0
+													}
+, 													{
+														"in" : 7,
+														"out" : 1,
+														"gain" : 1.0
+													}
+, 													{
+														"in" : 11,
 														"out" : 4,
+														"gain" : 0.82
+													}
+, 													{
+														"in" : 6,
+														"out" : 0,
 														"gain" : 1.0
 													}
 , 													{
@@ -16551,13 +16586,28 @@
 														"gain" : 1.0
 													}
 , 													{
-														"in" : 1,
+														"in" : 6,
+														"out" : 11,
+														"gain" : 0.175
+													}
+, 													{
+														"in" : 9,
+														"out" : 7,
+														"gain" : 1.0
+													}
+, 													{
+														"in" : 8,
 														"out" : 5,
-														"gain" : 0.795
+														"gain" : 1.0
 													}
 , 													{
 														"in" : 4,
 														"out" : 2,
+														"gain" : 1.0
+													}
+, 													{
+														"in" : 4,
+														"out" : 0,
 														"gain" : 1.0
 													}
  ]
@@ -16703,8 +16753,23 @@
 									"candycane7" : [ 0.85744696855545, 0.133188754320145, 0.112195864319801, 1.0 ],
 									"candycane8" : [ 0.725330591201782, 0.150167986750603, 0.569775223731995, 1.0 ],
 									"connections" : [ 										{
-											"in" : 1,
+											"in" : 0,
+											"out" : 3,
+											"gain" : 1.0
+										}
+, 										{
+											"in" : 7,
+											"out" : 1,
+											"gain" : 1.0
+										}
+, 										{
+											"in" : 11,
 											"out" : 4,
+											"gain" : 0.82
+										}
+, 										{
+											"in" : 6,
+											"out" : 0,
 											"gain" : 1.0
 										}
 , 										{
@@ -16713,13 +16778,28 @@
 											"gain" : 1.0
 										}
 , 										{
-											"in" : 1,
+											"in" : 6,
+											"out" : 11,
+											"gain" : 0.175
+										}
+, 										{
+											"in" : 9,
+											"out" : 7,
+											"gain" : 1.0
+										}
+, 										{
+											"in" : 8,
 											"out" : 5,
-											"gain" : 0.795
+											"gain" : 1.0
 										}
 , 										{
 											"in" : 4,
 											"out" : 2,
+											"gain" : 1.0
+										}
+, 										{
+											"in" : 4,
+											"out" : 0,
 											"gain" : 1.0
 										}
  ],
@@ -17438,7 +17518,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1671.232690552870281, 34.0, 145.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2869 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17468,7 +17548,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1431.232690552870281, 8.0, 145.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1213 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17498,7 +17578,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1511.232690552870281, 34.0, 145.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1355 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17528,7 +17608,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1591.232690552870281, 8.0, 145.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1032 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17558,7 +17638,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1751.232690552870281, 8.0, 145.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2074 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17588,7 +17668,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1499.0, 284.5, 149.0, 22.0 ],
-					"restore" : [ null ],
+					"restore" : [ 317 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -17714,7 +17794,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 961.732690552870281, 8.0, 109.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1250 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -17733,7 +17813,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1072.0, -8.0, 100.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2942 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -17764,7 +17844,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1140.899339417616375, 16.0, 100.0, 22.0 ],
-					"restore" : [ 376 ],
+					"restore" : [ 1598 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -17795,7 +17875,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1220.899339417616375, -8.0, 100.0, 22.0 ],
-					"restore" : [ 4095 ],
+					"restore" : [ 2704 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -17826,7 +17906,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1300.899339417616375, 16.0, 100.0, 22.0 ],
-					"restore" : [ 855 ],
+					"restore" : [ 3012 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -17857,7 +17937,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 585.232690552870395, 8.0, 103.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 814 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -17876,7 +17956,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 665.232690552870395, 32.0, 122.0, 22.0 ],
-					"restore" : [ 2526 ],
+					"restore" : [ 2799 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -17895,7 +17975,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 745.232690552870395, 8.0, 103.0, 22.0 ],
-					"restore" : [ 1984.25473107909329 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -17914,7 +17994,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 825.232690552870395, 32.0, 122.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 979 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18029,7 +18109,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 214.232690552870395, 8.0, 100.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1011 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18048,7 +18128,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 294.232690552870395, 33.0, 100.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1837 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18067,7 +18147,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 374.232690552870395, 8.0, 100.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2478 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18086,7 +18166,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 454.232690552870395, 33.0, 101.0, 22.0 ],
-					"restore" : [ 1768 ],
+					"restore" : [ 1669 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18201,7 +18281,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -144.767309447129605, 8.0, 100.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2050 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18220,7 +18300,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ -64.767309447129605, 33.0, 100.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2033 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18239,7 +18319,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 15.232690552870395, 8.0, 100.0, 22.0 ],
-					"restore" : [ 455 ],
+					"restore" : [ 217 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18258,7 +18338,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 95.232690552870395, 33.0, 107.0, 22.0 ],
-					"restore" : [ 1677 ],
+					"restore" : [ 2288 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18277,7 +18357,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 811.166648864746094, 794.0, 105.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18296,7 +18376,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 931.166648864746094, 794.0, 100.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18315,7 +18395,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1051.166648864746094, 794.0, 116.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18334,7 +18414,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1171.166648864746094, 794.0, 139.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18353,7 +18433,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1291.166648864746094, 794.0, 139.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18372,7 +18452,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1411.166648864746094, 794.0, 125.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18455,7 +18535,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 818.0, 626.663367331027985, 109.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18474,7 +18554,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 938.0, 626.663367331027985, 105.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18493,7 +18573,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1058.0, 626.663367331027985, 109.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18512,7 +18592,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1178.0, 626.663367331027985, 100.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18531,7 +18611,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1298.0, 626.663367331027985, 120.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18550,7 +18630,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1418.0, 626.663367331027985, 147.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18569,7 +18649,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 994.666648864746094, 474.663367331027985, 100.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18588,7 +18668,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1114.666648864746094, 474.663367331027985, 117.0, 22.0 ],
-					"restore" : [ 2.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18607,7 +18687,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1234.666648864746094, 474.663367331027985, 100.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18626,7 +18706,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1354.666648864746094, 474.663367331027985, 100.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18645,7 +18725,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 872.0, 325.0, 104.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18664,7 +18744,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 992.0, 325.0, 104.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18683,7 +18763,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1112.0, 325.0, 104.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18702,7 +18782,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1232.0, 325.0, 104.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -18721,7 +18801,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1352.0, 325.0, 104.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -25116,7 +25196,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 172.39990299999954, 339.075526654720306, 50.0, 22.0 ],
-													"text" : "2"
+													"text" : "2869"
 												}
 
 											}
@@ -26245,9 +26325,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 199.333333333333343, 759.435644328594208, 109.0, 22.0 ],
-					"text" : "timedmessages 10"
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 199.333333333333343, 759.435644328594208, 103.0, 22.0 ],
+					"text" : "timedmessages 5"
 				}
 
 			}
@@ -28319,7 +28399,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 872.0, 474.663367331027985, 100.0, 22.0 ],
-					"restore" : [ 5.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -29146,6 +29226,13 @@
 					"destination" : [ "obj-142", 0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-172", 0 ],
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -31005,7 +31092,7 @@
 			"obj-135" : [ "eg_decay_sync", "egd_sync", 0 ],
 			"obj-137" : [ "dlpg_level_2_cv_", "dlpg_level_2_cv_", 0 ],
 			"obj-138" : [ "pulser_period_", "pulser_period_", 0 ],
-			"obj-139" : [ "live.button", "live.button", 0 ],
+			"obj-139" : [ "sending_midi", "sending_midi", 0 ],
 			"obj-140" : [ "dlpg_level_2_", "dlpg_level_2_", 0 ],
 			"obj-141" : [ "dlpg_level_1_cv_", "dlpg_level_1_cv_", 0 ],
 			"obj-143" : [ "limit", "limit", 0 ],
@@ -31022,60 +31109,60 @@
 			"obj-159" : [ "co_timbre_", "co_timbre_", 0 ],
 			"obj-162" : [ "co_pitch_cv_", "co_pitch_cv_", 0 ],
 			"obj-163" : [ "co_pitch_", "co_pitch_", 0 ],
-			"obj-164::obj-10" : [ "Jitter", "Jitter", 0 ],
-			"obj-164::obj-120" : [ "Offset", "Offset", 0 ],
-			"obj-164::obj-140" : [ "Phase", "Phase", 0 ],
-			"obj-164::obj-173" : [ "LFOdest", "LFOdest", 0 ],
-			"obj-164::obj-26" : [ "Time Mode", "Time Mode", 0 ],
-			"obj-164::obj-55" : [ "Hold", "Hold", 0 ],
-			"obj-164::obj-58" : [ "Sync Rate", "Rate", 0 ],
-			"obj-164::obj-69" : [ "Smooth", "Smooth", 0 ],
-			"obj-164::obj-79" : [ "Shape", "Shape", 0 ],
-			"obj-164::obj-89" : [ "Freq Rate", "Rate", 0 ],
-			"obj-164::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
-			"obj-164::obj-99" : [ "Depth", "Depth", 0 ],
+			"obj-164::obj-10" : [ "LFO_Jitter[1]", "LFO_Jitter[1]", 0 ],
+			"obj-164::obj-120" : [ "LFO_Offset[1]", "LFO_Offset[1]", 0 ],
+			"obj-164::obj-140" : [ "LFO_Phase[1]", "LFO_Phase[1]", 0 ],
+			"obj-164::obj-173" : [ "LFO_dest[1]", "LFO_dest[1]", 0 ],
+			"obj-164::obj-26" : [ "LFO Time Mode", "Time Mode", 0 ],
+			"obj-164::obj-55" : [ "LFO_Hold[1]", "LFO_Hold[1]", 0 ],
+			"obj-164::obj-58" : [ "LFO_Sync_Rate[1]", "LFO_Sync_Rate[1]", 0 ],
+			"obj-164::obj-69" : [ "LFO_Smooth[1]", "LFO_Smooth[1]", 0 ],
+			"obj-164::obj-79" : [ "LFO_Shape[1]", "LFO_Shape[1]", 0 ],
+			"obj-164::obj-89" : [ "LFO_FreqRate[1]", "LFO_FreqRate[1]", 0 ],
+			"obj-164::obj-94" : [ "LFO_re-trigger[1]", "LFO_re-trigger[1]", 0 ],
+			"obj-164::obj-99" : [ "LFO_Depth[1]", "LFO_Depth[1]", 0 ],
 			"obj-177" : [ "open_LFO_1", "open_LFO_1", 0 ],
 			"obj-18" : [ "pulser_start_", "pulser_start_", 0 ],
 			"obj-181" : [ "open_LFO_2", "open_LFO_2", 0 ],
-			"obj-182::obj-10" : [ "Jitter[5]", "Jitter", 0 ],
-			"obj-182::obj-120" : [ "Offset[5]", "Offset", 0 ],
-			"obj-182::obj-140" : [ "Phase[5]", "Phase", 0 ],
-			"obj-182::obj-173" : [ "LFOdest[3]", "LFOdest", 0 ],
-			"obj-182::obj-26" : [ "Time Mode[5]", "Time Mode", 0 ],
-			"obj-182::obj-55" : [ "Hold[5]", "Hold", 0 ],
-			"obj-182::obj-58" : [ "Sync Rate[5]", "Rate", 0 ],
-			"obj-182::obj-69" : [ "Smooth[5]", "Smooth", 0 ],
-			"obj-182::obj-79" : [ "Shape[5]", "Shape", 0 ],
-			"obj-182::obj-89" : [ "Freq Rate[5]", "Rate", 0 ],
-			"obj-182::obj-94" : [ "Re-Trigger[5]", "Re-Trigger", 0 ],
-			"obj-182::obj-99" : [ "Depth[5]", "Depth", 0 ],
+			"obj-182::obj-10" : [ "LFO_Jitter[4]", "LFO_Jitter[1]", 0 ],
+			"obj-182::obj-120" : [ "LFO_Offset[4]", "LFO_Offset[1]", 0 ],
+			"obj-182::obj-140" : [ "LFO_Phase[6]", "LFO_Phase[1]", 0 ],
+			"obj-182::obj-173" : [ "LFO_dest[4]", "LFO_dest[1]", 0 ],
+			"obj-182::obj-26" : [ "LFO Time Mode[1]", "Time Mode", 0 ],
+			"obj-182::obj-55" : [ "LFO_Hold[3]", "LFO_Hold[1]", 0 ],
+			"obj-182::obj-58" : [ "LFO_Sync_Rate[4]", "LFO_Sync_Rate[1]", 0 ],
+			"obj-182::obj-69" : [ "LFO_Smooth[4]", "LFO_Smooth[1]", 0 ],
+			"obj-182::obj-79" : [ "LFO_Shape[4]", "LFO_Shape[1]", 0 ],
+			"obj-182::obj-89" : [ "LFO_FreqRate[6]", "LFO_FreqRate[1]", 0 ],
+			"obj-182::obj-94" : [ "LFO_re-trigger[3]", "LFO_re-trigger[1]", 0 ],
+			"obj-182::obj-99" : [ "LFO_Depth[4]", "LFO_Depth[1]", 0 ],
 			"obj-185" : [ "open_LFO_3", "open_LFO_3", 0 ],
-			"obj-186::obj-10" : [ "Jitter[3]", "Jitter", 0 ],
-			"obj-186::obj-120" : [ "Offset[3]", "Offset", 0 ],
-			"obj-186::obj-140" : [ "Phase[3]", "Phase", 0 ],
-			"obj-186::obj-173" : [ "LFOdest[2]", "LFOdest", 0 ],
-			"obj-186::obj-26" : [ "Time Mode[3]", "Time Mode", 0 ],
-			"obj-186::obj-55" : [ "Hold[3]", "Hold", 0 ],
-			"obj-186::obj-58" : [ "Sync Rate[3]", "Rate", 0 ],
-			"obj-186::obj-69" : [ "Smooth[3]", "Smooth", 0 ],
-			"obj-186::obj-79" : [ "Shape[3]", "Shape", 0 ],
-			"obj-186::obj-89" : [ "Freq Rate[3]", "Rate", 0 ],
-			"obj-186::obj-94" : [ "Re-Trigger[3]", "Re-Trigger", 0 ],
-			"obj-186::obj-99" : [ "Depth[3]", "Depth", 0 ],
+			"obj-186::obj-10" : [ "LFO_Jitter[7]", "LFO_Jitter[1]", 0 ],
+			"obj-186::obj-120" : [ "LFO_Offset[3]", "LFO_Offset[1]", 0 ],
+			"obj-186::obj-140" : [ "LFO_Phase[5]", "LFO_Phase[1]", 0 ],
+			"obj-186::obj-173" : [ "LFO_dest[3]", "LFO_dest[1]", 0 ],
+			"obj-186::obj-26" : [ "LFO Time Mode[8]", "Time Mode", 0 ],
+			"obj-186::obj-55" : [ "LFO_Hold[2]", "LFO_Hold[1]", 0 ],
+			"obj-186::obj-58" : [ "LFO_Sync_Rate[3]", "LFO_Sync_Rate[1]", 0 ],
+			"obj-186::obj-69" : [ "LFO_Smooth[3]", "LFO_Smooth[1]", 0 ],
+			"obj-186::obj-79" : [ "LFO_Shape[3]", "LFO_Shape[1]", 0 ],
+			"obj-186::obj-89" : [ "LFO_FreqRate[5]", "LFO_FreqRate[1]", 0 ],
+			"obj-186::obj-94" : [ "LFO_re-trigger[2]", "LFO_re-trigger[1]", 0 ],
+			"obj-186::obj-99" : [ "LFO_Depth[3]", "LFO_Depth[1]", 0 ],
 			"obj-187" : [ "lfo_dest[1]", "lfo_dest[1]", 0 ],
 			"obj-193" : [ "open_LFO_4", "open_LFO_4", 0 ],
-			"obj-194::obj-10" : [ "Jitter[4]", "Jitter", 0 ],
-			"obj-194::obj-120" : [ "Offset[4]", "Offset", 0 ],
-			"obj-194::obj-140" : [ "Phase[4]", "Phase", 0 ],
-			"obj-194::obj-173" : [ "LFOdest[1]", "LFOdest", 0 ],
-			"obj-194::obj-26" : [ "Time Mode[4]", "Time Mode", 0 ],
-			"obj-194::obj-55" : [ "Hold[4]", "Hold", 0 ],
-			"obj-194::obj-58" : [ "Sync Rate[4]", "Rate", 0 ],
-			"obj-194::obj-69" : [ "Smooth[4]", "Smooth", 0 ],
-			"obj-194::obj-79" : [ "Shape[4]", "Shape", 0 ],
-			"obj-194::obj-89" : [ "Freq Rate[4]", "Rate", 0 ],
-			"obj-194::obj-94" : [ "Re-Trigger[4]", "Re-Trigger", 0 ],
-			"obj-194::obj-99" : [ "Depth[4]", "Depth", 0 ],
+			"obj-194::obj-10" : [ "LFO_Jitter[3]", "LFO_Jitter[1]", 0 ],
+			"obj-194::obj-120" : [ "LFO_Offset[2]", "LFO_Offset[1]", 0 ],
+			"obj-194::obj-140" : [ "LFO_Phase[4]", "LFO_Phase[1]", 0 ],
+			"obj-194::obj-173" : [ "LFO_dest[2]", "LFO_dest[1]", 0 ],
+			"obj-194::obj-26" : [ "LFO Time Mode[7]", "Time Mode", 0 ],
+			"obj-194::obj-55" : [ "LFO_Hold[8]", "LFO_Hold[1]", 0 ],
+			"obj-194::obj-58" : [ "LFO_Sync_Rate[2]", "LFO_Sync_Rate[1]", 0 ],
+			"obj-194::obj-69" : [ "LFO_Smooth[2]", "LFO_Smooth[1]", 0 ],
+			"obj-194::obj-79" : [ "LFO_Shape[2]", "LFO_Shape[1]", 0 ],
+			"obj-194::obj-89" : [ "LFO_FreqRate[4]", "LFO_FreqRate[1]", 0 ],
+			"obj-194::obj-94" : [ "LFO_re-trigger[8]", "LFO_re-trigger[1]", 0 ],
+			"obj-194::obj-99" : [ "LFO_Depth[2]", "LFO_Depth[1]", 0 ],
 			"obj-195" : [ "lfo_dest[2]", "lfo_dest[2]", 0 ],
 			"obj-196" : [ "lfo_dest[3]", "lfo_dest[3]", 0 ],
 			"obj-197" : [ "lfo_dest[4]", "lfo_dest[4]", 0 ],
@@ -31168,159 +31255,215 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-164::obj-10" : 				{
+					"parameter_longname" : "LFO_Jitter[1]",
+					"parameter_shortname" : "LFO_Jitter[1]"
+				}
+,
+				"obj-164::obj-120" : 				{
+					"parameter_longname" : "LFO_Offset[1]",
+					"parameter_shortname" : "LFO_Offset[1]"
+				}
+,
+				"obj-164::obj-140" : 				{
+					"parameter_longname" : "LFO_Phase[1]",
+					"parameter_shortname" : "LFO_Phase[1]"
+				}
+,
 				"obj-164::obj-173" : 				{
 					"parameter_invisible" : 2,
 					"parameter_linknames" : 1,
-					"parameter_longname" : "LFOdest",
+					"parameter_longname" : "LFO_dest[1]",
 					"parameter_modmode" : 0,
 					"parameter_range" : [ "[none]", "co_pitch", "co_pitch_cv", "co_timbre", "co_timbre_cv", "mo_freq", "mo_freq_cv", "mo_mod", "mo_mod_cv", "dlpg_level_1", "dlpg_level_1_cv", "dlpg_level_2", "dlpg_level_2_cv", "pulser_period", "pulser_cv", "eg_attack", "eg_sustain", "eg_decay", "seq_voltage_level_1", "seq_voltage_level_2", "seq_voltage_level_3", "seq_voltage_level_4", "seq_voltage_level_5", "co_waveshape_knob" ],
-					"parameter_shortname" : "LFOdest",
+					"parameter_shortname" : "LFO_dest[1]",
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
 ,
+				"obj-164::obj-26" : 				{
+					"parameter_longname" : "LFO Time Mode"
+				}
+,
+				"obj-164::obj-55" : 				{
+					"parameter_longname" : "LFO_Hold[1]",
+					"parameter_shortname" : "LFO_Hold[1]"
+				}
+,
+				"obj-164::obj-58" : 				{
+					"parameter_longname" : "LFO_Sync_Rate[1]",
+					"parameter_shortname" : "LFO_Sync_Rate[1]"
+				}
+,
+				"obj-164::obj-69" : 				{
+					"parameter_longname" : "LFO_Smooth[1]",
+					"parameter_shortname" : "LFO_Smooth[1]"
+				}
+,
+				"obj-164::obj-79" : 				{
+					"parameter_longname" : "LFO_Shape[1]",
+					"parameter_shortname" : "LFO_Shape[1]"
+				}
+,
+				"obj-164::obj-89" : 				{
+					"parameter_linknames" : 1,
+					"parameter_longname" : "LFO_FreqRate[1]",
+					"parameter_shortname" : "LFO_FreqRate[1]"
+				}
+,
+				"obj-164::obj-94" : 				{
+					"parameter_linknames" : 1,
+					"parameter_longname" : "LFO_re-trigger[1]",
+					"parameter_shortname" : "LFO_re-trigger[1]"
+				}
+,
+				"obj-164::obj-99" : 				{
+					"parameter_longname" : "LFO_Depth[1]",
+					"parameter_shortname" : "LFO_Depth[1]"
+				}
+,
 				"obj-182::obj-10" : 				{
-					"parameter_longname" : "Jitter[5]"
+					"parameter_longname" : "LFO_Jitter[4]"
 				}
 ,
 				"obj-182::obj-120" : 				{
-					"parameter_longname" : "Offset[5]"
+					"parameter_longname" : "LFO_Offset[4]"
 				}
 ,
 				"obj-182::obj-140" : 				{
-					"parameter_longname" : "Phase[5]"
+					"parameter_longname" : "LFO_Phase[6]"
 				}
 ,
 				"obj-182::obj-173" : 				{
-					"parameter_longname" : "LFOdest[3]"
+					"parameter_longname" : "LFO_dest[4]"
 				}
 ,
 				"obj-182::obj-26" : 				{
-					"parameter_longname" : "Time Mode[5]"
+					"parameter_longname" : "LFO Time Mode[1]"
 				}
 ,
 				"obj-182::obj-55" : 				{
-					"parameter_longname" : "Hold[5]"
+					"parameter_longname" : "LFO_Hold[3]"
 				}
 ,
 				"obj-182::obj-58" : 				{
-					"parameter_longname" : "Sync Rate[5]"
+					"parameter_longname" : "LFO_Sync_Rate[4]"
 				}
 ,
 				"obj-182::obj-69" : 				{
-					"parameter_longname" : "Smooth[5]"
+					"parameter_longname" : "LFO_Smooth[4]"
 				}
 ,
 				"obj-182::obj-79" : 				{
-					"parameter_longname" : "Shape[5]"
+					"parameter_longname" : "LFO_Shape[4]"
 				}
 ,
 				"obj-182::obj-89" : 				{
-					"parameter_longname" : "Freq Rate[5]"
+					"parameter_longname" : "LFO_FreqRate[6]"
 				}
 ,
 				"obj-182::obj-94" : 				{
-					"parameter_longname" : "Re-Trigger[5]"
+					"parameter_longname" : "LFO_re-trigger[3]"
 				}
 ,
 				"obj-182::obj-99" : 				{
-					"parameter_longname" : "Depth[5]"
+					"parameter_longname" : "LFO_Depth[4]"
 				}
 ,
 				"obj-186::obj-10" : 				{
-					"parameter_longname" : "Jitter[3]"
+					"parameter_longname" : "LFO_Jitter[7]"
 				}
 ,
 				"obj-186::obj-120" : 				{
-					"parameter_longname" : "Offset[3]"
+					"parameter_longname" : "LFO_Offset[3]"
 				}
 ,
 				"obj-186::obj-140" : 				{
-					"parameter_longname" : "Phase[3]"
+					"parameter_longname" : "LFO_Phase[5]"
 				}
 ,
 				"obj-186::obj-173" : 				{
-					"parameter_longname" : "LFOdest[2]"
+					"parameter_longname" : "LFO_dest[3]"
 				}
 ,
 				"obj-186::obj-26" : 				{
-					"parameter_longname" : "Time Mode[3]"
+					"parameter_longname" : "LFO Time Mode[8]"
 				}
 ,
 				"obj-186::obj-55" : 				{
-					"parameter_longname" : "Hold[3]"
+					"parameter_longname" : "LFO_Hold[2]"
 				}
 ,
 				"obj-186::obj-58" : 				{
-					"parameter_longname" : "Sync Rate[3]"
+					"parameter_longname" : "LFO_Sync_Rate[3]"
 				}
 ,
 				"obj-186::obj-69" : 				{
-					"parameter_longname" : "Smooth[3]"
+					"parameter_longname" : "LFO_Smooth[3]"
 				}
 ,
 				"obj-186::obj-79" : 				{
-					"parameter_longname" : "Shape[3]"
+					"parameter_longname" : "LFO_Shape[3]"
 				}
 ,
 				"obj-186::obj-89" : 				{
-					"parameter_longname" : "Freq Rate[3]"
+					"parameter_longname" : "LFO_FreqRate[5]"
 				}
 ,
 				"obj-186::obj-94" : 				{
-					"parameter_longname" : "Re-Trigger[3]"
+					"parameter_longname" : "LFO_re-trigger[2]"
 				}
 ,
 				"obj-186::obj-99" : 				{
-					"parameter_longname" : "Depth[3]"
+					"parameter_longname" : "LFO_Depth[3]"
 				}
 ,
 				"obj-194::obj-10" : 				{
-					"parameter_longname" : "Jitter[4]"
+					"parameter_longname" : "LFO_Jitter[3]"
 				}
 ,
 				"obj-194::obj-120" : 				{
-					"parameter_longname" : "Offset[4]"
+					"parameter_longname" : "LFO_Offset[2]"
 				}
 ,
 				"obj-194::obj-140" : 				{
-					"parameter_longname" : "Phase[4]"
+					"parameter_longname" : "LFO_Phase[4]"
 				}
 ,
 				"obj-194::obj-173" : 				{
-					"parameter_longname" : "LFOdest[1]"
+					"parameter_longname" : "LFO_dest[2]"
 				}
 ,
 				"obj-194::obj-26" : 				{
-					"parameter_longname" : "Time Mode[4]"
+					"parameter_longname" : "LFO Time Mode[7]"
 				}
 ,
 				"obj-194::obj-55" : 				{
-					"parameter_longname" : "Hold[4]"
+					"parameter_longname" : "LFO_Hold[8]"
 				}
 ,
 				"obj-194::obj-58" : 				{
-					"parameter_longname" : "Sync Rate[4]"
+					"parameter_longname" : "LFO_Sync_Rate[2]"
 				}
 ,
 				"obj-194::obj-69" : 				{
-					"parameter_longname" : "Smooth[4]"
+					"parameter_longname" : "LFO_Smooth[2]"
 				}
 ,
 				"obj-194::obj-79" : 				{
-					"parameter_longname" : "Shape[4]"
+					"parameter_longname" : "LFO_Shape[2]"
 				}
 ,
 				"obj-194::obj-89" : 				{
-					"parameter_longname" : "Freq Rate[4]"
+					"parameter_longname" : "LFO_FreqRate[4]"
 				}
 ,
 				"obj-194::obj-94" : 				{
-					"parameter_longname" : "Re-Trigger[4]"
+					"parameter_longname" : "LFO_re-trigger[8]"
 				}
 ,
 				"obj-194::obj-99" : 				{
-					"parameter_longname" : "Depth[4]"
+					"parameter_longname" : "LFO_Depth[2]"
 				}
 
 			}
