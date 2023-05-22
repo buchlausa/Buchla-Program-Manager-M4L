@@ -305,7 +305,7 @@ function selectprogram(v){
     var val = pgmdata["patchdata"][i]["v"];
     // post("\n == "+"i: "+i+" p: "+o_param+" v: "+val);
     var param = sysex_vars["translate_db2pattr"][o_param];
-    post("\n *** "+param,val);
+    //post("\n DB out: "+param,val);
 
     if (param != "connection"){
       outlet(1,param,val);
